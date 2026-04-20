@@ -7,6 +7,7 @@ This implementation of Elden Ring Randomizer for Manual Archipelago randomizes t
 - Elden Ring (PC) on current patch
 - Elden Ring Item and Enemy Randomizer by thefifthmatt - https://www.nexusmods.com/eldenring/mods/428
 - Glorious Merchant Mod by tomclark - https://www.nexusmods.com/eldenring/mods/5192
+- The latest stable Manual Client (.apworld) - https://github.com/ManualForArchipelago/Manual/releases
 - manual_eldenringkeyitemrando_almightyfridge.apworld - found in releases
 
 
