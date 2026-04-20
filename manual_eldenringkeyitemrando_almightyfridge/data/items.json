@@ -1,0 +1,154 @@
+[
+  {
+    "count": "13",
+    "name": "Progressive Max Level",
+    "category": ["Max Level"],
+    "progression": true
+  },
+  {
+    "count": "10",
+    "name": "Progressive Stone Level",
+    "category": ["Stone Level"],
+    "progression": true
+  },
+  {
+    "count": "7",
+    "name": "Great Rune",
+    "category": [
+      "Great Runes"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Drawing Room Key",
+    "category": ["Key Item"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Academy Glintstone Key",
+    "category": ["Key Item"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Carian Inverted Statue",
+    "category": ["Key Item"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Pureblood Knight's Medal",
+    "category": ["Key Item"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Dectus Medallion (Left)",
+    "category": ["Key Item"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Dectus Medallion (Right)",
+    "category": ["Key Item"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Secret Haligtree Medallion (Left)",
+    "category": ["Key Item"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Secret Haligtree Medallion (Right)",
+    "category": ["Key Item"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rold Medallion",
+    "category": ["Key Item"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Farum Azula Stonesword Key",
+    "category": ["Key Item"],
+    "progression": true
+  },
+    {
+    "count": 1,
+    "name": "Discarded Palace Key",
+    "category": ["Key Item"],
+    "progression": true
+  },
+  {
+    "count": "0",
+    "name": "Free Weapon",
+    "category": ["Free Items"],
+    "useful": true
+  },
+  {
+    "count": "0",
+    "name": "Free Shield",
+    "category": ["Free Items"],
+    "useful": true
+  },
+  {
+    "count": "0",
+    "name": "Free Armor",
+    "category": ["Free Items"],
+    "useful": true
+  },
+    {
+    "count": "0",
+    "name": "Free Spell",
+    "category": ["Free Items"],
+    "useful": true
+  },
+  {
+    "count": "0",
+    "name": "Free +0 Talisman",
+    "category": ["Free Items"],
+    "useful": true
+  },
+  {
+    "count": "0",
+    "name": "Free +1 Talisman",
+    "category": ["Free Items"],
+    "useful": true
+  },
+  {
+    "count": "0",
+    "name": "Free +2 Talisman",
+    "category": ["Free Items"],
+    "useful": true
+  },
+  {
+    "count": "0",
+    "name": "Free +3 Talisman",
+    "category": ["Free Items"],
+    "useful": true
+  },
+  {
+    "count": 0,
+    "name": "Discard Weapon (trap)",
+    "category": ["Traps"],
+    "trap": true
+  },
+  {
+    "count": 0,
+    "name": "Fight a Minor Boss (trap)",
+    "category": ["Traps"],
+    "trap": true
+  },
+  {
+    "count": 0,
+    "name": "Immediate Memory of Grace (trap)",
+    "category": ["Traps"],
+    "trap": true
+  }
+]

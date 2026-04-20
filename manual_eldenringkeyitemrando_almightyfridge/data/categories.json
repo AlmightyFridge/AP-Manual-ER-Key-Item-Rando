@@ -1,0 +1,8 @@
+{
+    "Shops":{
+        "yaml_option": ["Shopsanity"]
+    },
+    "Flask Upgrades":{
+        "yaml_option": ["Flask_Upgrade_Sanity"]
+    }
+}

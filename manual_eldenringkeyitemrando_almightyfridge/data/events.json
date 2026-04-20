@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Makar Killable",
+        "copy_location": "Magma Wyrm Makar Defeated"
+    },
+
+    {
+        "name": "Fia's Champs Killable",
+        "region": "Deeproot Depths",
+        "requires": "|Progressive Max Level:5| AND |Progressive Stone Level:6|"
+    },
+
+    {
+        "name": "Draconic Tree Sentinel Killable",
+        "region": "Capital Outskirts",
+        "requires": "|Progressive Max Level:5| AND |Progressive Stone Level:6|"
+    },
+
+    {
+        "name": "Commander Niall Killable",
+        "copy_location": "Commander Niall Defeated"
+    },
+
+    {
+        "name": "Morgott Killable",
+        "copy_location": "Morgott Defeated"
+    }, 
+
+    {
+        "name": "Margit Killable",
+        "copy_location": "Margit Defeated"
+    },
+
+    {
+        "name": "Red Wolf Killable",
+        "copy_location": "Red Wolf Defeated"
+    },
+
+    {
+        "name": "Rennala Killable",
+        "copy_location": "Rennala Defeated"
+    },
+
+    {
+        "name": "Starscourge Radahn Killable",
+        "copy_location": "Starscourge Radahn Defeated"
+    },
+
+    {
+        "name": "Royal Knight Loretta Killable",
+        "copy_location": "Royal Knight Loretta Defeated"
+    },
+
+    {
+        "name": "Valiant Gargoyles Killable",
+        "copy_location": "Valiant Gargoyles Defeated"
+    },
+
+    {
+        "name": "Fire Giant Killable",
+        "copy_location": "Fire Giant Defeated"
+    },
+
+    {
+        "name": "Maliketh Killable",
+        "copy_location": "Maliketh Defeated"
+    }
+
+
+
+
+    
+
+]

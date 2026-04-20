@@ -1,0 +1,133 @@
+{
+  "Limgrave": {
+    "starting": true,
+    "connects_to": [
+      "Weeping Peninsula",
+      "Liurnia of the Lakes",
+      "Siofra River",
+      "Caelid", 
+      "Stormvale Castle", 
+      "Nokron Eternal City",
+      "Dragonbarrow"
+    ],
+    "requires": ""
+  },
+  "Weeping Peninsula": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Stormvale Castle": {
+    "connects_to": [
+      "Liurnia of the Lakes"
+    ],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:1| AND |Progressive Stone Level:1|) OR ({YamlCompare(Region_Locking == 1)}"
+  },
+  "Liurnia of the Lakes": {
+    "connects_to": [
+      "Academy of Raya Lucaria",
+      "Ainsel River",
+      "Altus Plateau"
+    ],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:2| AND |Progressive Stone Level:1|) OR {YamlCompare(Region_Locking == 1)}"
+  },
+  "Academy of Raya Lucaria": {
+    "connects_to": [],
+    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:3| AND |Progressive Stone Level:2|) OR {YamlCompare(Region_Locking == 1)}) AND |Academy Glintstone Key|"
+  },
+  "Ainsel River": {
+    "connects_to": [
+      "Lake of Rot"
+    ],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:3| AND |Progressive Stone Level:2|) OR {YamlCompare(Region_Locking == 1)}"
+  },
+  "Siofra River": {
+    "connects_to": [],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:3| AND |Progressive Stone Level:2|) OR {YamlCompare(Region_Locking == 1)}"
+  },
+  "Caelid": {
+    "connects_to": [
+      "Dragonbarrow"
+    ],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:4| AND |Progressive Stone Level:4|) OR {YamlCompare(Region_Locking == 1)}"
+  },
+  "Altus Plateau": {
+    "connects_to": [
+      "Mt. Gelmir",
+      "Capital Outskirts"
+    ],
+    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:4| AND |Progressive Stone Level:4|) OR {YamlCompare(Region_Locking == 1)}) AND (|Makar Killable| OR (|Dectus Medallion (Left)| AND |Dectus Medallion (Right)|))"
+  },
+  "Nokron Eternal City": {
+    "connects_to": [
+      "Deeproot Depths"
+    ],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:4| AND |Progressive Stone Level:6|) OR ({YamlCompare(Region_Locking == 1)} AND |Starscourge Radahn Killable|)"
+  },
+  "Deeproot Depths": {
+    "connects_to": [
+      "Leyndell Royal Capital", "Lake of Rot"
+    ],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:5| AND |Progressive Stone Level:6|) OR ({YamlCompare(Region_Locking == 1)} AND |Valiant Gargoyles Killable|)"
+  },
+  "Capital Outskirts": {
+    "connects_to": [
+      "Leyndell Royal Capital"
+    ],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:5| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}"
+  },
+  "Mt. Gelmir": {
+    "connects_to": [],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:5| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}"
+  },
+  "Lake of Rot": {
+    "connects_to": [],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:5| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}"
+  },
+  "Dragonbarrow": {
+    "connects_to": [],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:6| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}"
+  },
+  "Leyndell Royal Capital": {
+    "connects_to": [
+      "Forbidden Lands"
+    ],
+    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:6| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}) AND {OptionCount(Great Rune, Great_Runes_Capital)} AND (|Draconic Tree Sentinel Killable| OR |Fia's Champs Killable|)"
+  },
+  "Forbidden Lands": {
+    "connects_to": [
+      "Mountaintops of the Giants", "Consecrated Snowfield"
+    ],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:7| AND |Progressive Stone Level:8|) OR ({YamlCompare(Region_Locking == 1)} AND |Morgott Killable|)"
+  },
+  "Mountaintops of the Giants": {
+    "connects_to": [
+      "Crumbling Farum Azula"
+    ],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:7| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}"
+  },
+  "Consecrated Snowfield": {
+    "connects_to": [
+      "Mohgwyn Palace",
+      "Miquella's Haligtree"
+    ],
+    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:7| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}) AND |Secret Haligtree Medallion (Left)| AND |Secret Haligtree Medallion (Right)|"
+  },
+  "Mohgwyn Palace": {
+    "connects_to": [],
+    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}) AND ((|Secret Haligtree Medallion (Left)| AND |Secret Haligtree Medallion (Right)|) OR |Pureblood Knight's Medal|)"
+  },
+  "Miquella's Haligtree": {
+    "connects_to": [],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}"
+  },
+  "Crumbling Farum Azula": {
+    "connects_to": [
+      "Leyndell Ashen Capital"
+    ],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|) OR ({YamlCompare(Region_Locking == 1)} AND |Fire Giant Killable|)"
+  },
+  "Leyndell Ashen Capital": {
+    "connects_to": [],
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|) OR ({YamlCompare(Region_Locking == 1)} AND |Maliketh Killable|)"
+  }
+}

@@ -1,0 +1,128 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "goal":{
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "The End Objective",
+            "description": "How to End your Randomized playthrough.",
+            "aliases": {"easiest": 0},
+            "hidden": false
+        },
+        "death_link": {
+            "default": false
+        },
+        "filler_traps": {
+            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
+            "values": {
+                "recommended": 20
+            }
+        }
+    },
+    "user": {      
+        "Great_Runes_Victory":{
+            "display_name": "Great Runes Victory",
+            "type": "Range",
+            "description": [
+                "How many Great Runes are needed to challenge the final boss"
+            ],
+            "range_start": 0,
+            "default": 4,
+            "range_end": 7
+        },
+
+        "Great_Runes_Capital":{
+            "display_name": "Great Runes Capital",
+            "type": "Range",
+            "description": [
+                "How many Great Runes are needed to enter Leyndell"
+            ],
+            "range_start": 0,
+            "default": 2,
+            "range_end": 7
+        },
+
+        "Rold_Medallion":{
+            "display_name": "Rold Medallion",
+            "description": [
+                "Determines whether the Grand Lift of Rold is accessed using Great Runes, if the Rold Medallion is given by Melina after killing Morgott (vanilla), or randomized into the pool"
+            ],
+            "type": "Choice",
+            "values": {
+                "Great Runes": 0,
+                "Vanilla Item": 1,
+                "Randomized Item": 2
+             },
+            "default": 0,
+            "allow_custom_value": false
+        },
+
+        "Great_Runes_Rold":{
+            "display_name": "Great Runes Rold",
+            "type": "Range",
+            "description": [
+                "How many Great Runes are needed to open the Grand Lift of Rold",
+                "This does nothing if Rold Medallion is set to 'Item'"
+            ],
+            "range_start": 0,
+            "default": 2,
+            "range_end": 7
+        },
+
+        "Region_Locking":{
+            "display_name": "Region Locking",
+            "description": [
+                "Determines how the game expects you to be locked behind progressive max levels and progressive upgrade stones",
+                "'All Locations' logically gates all locations in a region until you have the expected levels and stones",
+                "'Boss Locations' only logically gates Major Bosses locations in a region until you have the expected levels and stones",
+                "Note that bosses that block non-boss locations and travel between areas are taken into logic"
+            ],
+            "type": "Choice",
+            "values": {
+                "All Locations":0,
+                "Boss Locations":1
+             },
+            "default": 0
+        },
+
+        "Shopsanity":{
+            "display_name": "Shopsanity",
+            "description": [
+                "if enabled, shop locations are added into the pool",
+                "Enabling this option adds useful items to the pool"
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+
+        "Flask_Upgrade_Sanity":{
+            "display_name": "Flask Upgrade Sanity",
+            "description": [
+                "If enabled, Sacred Tear and Golden Seed locations are added into the pool",
+                "Enabling this option adds useful items to the pool"
+            ],
+            "type": "Toggle",
+            "default": true
+        }, 
+
+        "Vanilla_Great_Runes":{
+            "display_name": "Vanilla Great Runes",
+            "description": [
+                "If enabled, Great Runes are placed at vanilla locations"
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+
+        "Early_Academy_Key":{
+            "display_name": "Early Academy Key",
+            "description": [
+                "If enabled, the Academy Glintstone Key is placed in Sphere 1"
+            ],
+            "type": "Toggle",
+            "default": false
+        }
+    }
+}

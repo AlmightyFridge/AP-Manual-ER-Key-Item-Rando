@@ -1,0 +1,923 @@
+[
+  {
+    "name": "Elden Beast Defeated",
+    "region": "Leyndell Ashen Capital",
+    "victory": true,
+    "category": [],
+    "requires": "{OptionCount(Great Rune, Great_Runes_Victory)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|"
+  },
+  {
+    "name": "Fort Haight Dectus Medallion",
+    "region": "Limgrave",
+    "category": [
+      "Key Items"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Church of Pilgrimage Sacred Tear",
+    "region": "Weeping Peninsula",
+    "category": [
+      "Sacred Tears",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Third Church of Marika Sacred Tear",
+    "region": "Limgrave",
+    "category": [
+      "Sacred Tears",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Fort Haight Golden Seed",
+    "region": "Limgrave",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Kale Shop Item",
+    "region": "Limgrave",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Patches Shop Item",
+    "region": "Limgrave",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Summonwater Merchant Shop Item",
+    "region": "Limgrave",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Coastal Cave Merchant Shop Item",
+    "region": "Limgrave",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Mistwood Merchant Shop Item",
+    "region": "Limgrave",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Margit Defeated",
+    "region": "Stormvale Castle",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:1| AND |Progressive Stone Level:1|"
+  },
+  {
+    "name": "Stormhill Shack Golden Seed",
+    "region": "Limgrave",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Roundtable Hold Shop Item",
+    "region": "Limgrave",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Stormvale Castle Rusty Key",
+    "region": "Stormvale Castle",
+    "category": [
+      "Key Items"
+    ],
+    "requires": "|Margit Killable|"
+  },
+  {
+    "name": "Godrick the Grafted Defeated",
+    "region": "Stormvale Castle",
+    "category": [
+      "Major Bosses",
+      "Great Rune Bosses"
+    ],
+    "requires": "|Progressive Max Level:1| AND |Progressive Stone Level:1| AND |Margit Killable|"
+  },
+  {
+    "name": "Stormvale Castle Golden Seed",
+    "region": "Stormvale Castle",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": "|Margit Killable|"
+  },
+  {
+    "name": "Leonine Misbegotten Defeated",
+    "region": "Weeping Peninsula",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Callu Baptismal Church Sacred Tear",
+    "region": "Weeping Peninsula",
+    "category": [
+      "Sacred Tears",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Fourth Church of Marika Sacred Tear",
+    "region": "Weeping Peninsula",
+    "category": [
+      "Sacred Tears",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Castle Morne Rampart Golden Seed",
+    "region": "Weeping Peninsula",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Castle Morne Rampart Merchant Shop Item",
+    "region": "Weeping Peninsula",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Weeping Peninsula Isolated Merchant Shop Item",
+    "region": "Weeping Peninsula",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Haligtree Secret Medallion (Right)",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Key Items"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Academy Glintstone Key",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Key Items"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Four Belfries Imbued Sword Key",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Key Items"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Royal Knight Loretta Defeated",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:2| AND |Progressive Stone Level:1|"
+  },
+  {
+    "name": "Church of Irith Sacred Tear",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Sacred Tears",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Caria Manor Golden Seed",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Ravine Veiled Village Golden Seed",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Academy Gate Town Golden Seed",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Iji Shop Item",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Pidia Shop Item",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Shops"
+    ],
+    "requires": "|Royal Knight Loretta Killable|"
+  },
+  {
+    "name": "Liurnia Lake Shore Merchant Shop Item",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Church of Inhibition Sacred Tear",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Sacred Tears",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Bellum Church Sacred Tear",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Sacred Tears",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Bellum Church Merchant Shop Item",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Dark Moon Ring Chest",
+    "region": "Academy of Raya Lucaria",
+    "category": [
+      "Key Items"
+    ],
+    "requires": "|Discarded Palace Key| AND |Rennala Killable|"
+  },
+  {
+    "name": "Raya Lucaria Imbued Sword Key",
+    "region": "Academy of Raya Lucaria",
+    "category": [
+      "Key Items"
+    ],
+    "requires": "|Red Wolf Killable|"
+  },
+  {
+    "name": "Red Wolf Defeated",
+    "region": "Academy of Raya Lucaria",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:3| AND |Progressive Stone Level:2|"
+  },
+  {
+    "name": "Rennala Defeated",
+    "region": "Academy of Raya Lucaria",
+    "category": [
+      "Major Bosses",
+      "Great Rune Bosses"
+    ],
+    "requires": "|Progressive Max Level:3| AND |Progressive Stone Level:2|"
+  },
+  {
+    "name": "Debate Parlor Golden Seed",
+    "region": "Academy of Raya Lucaria",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": "|Red Wolf Killable|"
+  },
+  {
+    "name": "Main Academy Gate Golden Seed",
+    "region": "Academy of Raya Lucaria",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Main Academy Gate Merchant Shop Item",
+    "region": "Academy of Raya Lucaria",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Ancestor Spirit Defeated",
+    "region": "Siofra River",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:3| AND |Progressive Stone Level:2|"
+  },
+  {
+    "name": "Siofra River Golden Seed",
+    "region": "Siofra River",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Siofra River Merchant Shop Item",
+    "region": "Siofra River",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Sellia Imbued Sword Key",
+    "region": "Caelid",
+    "category": [
+      "Key Items"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Starscourge Radahn Defeated",
+    "region": "Caelid",
+    "category": [
+      "Major Bosses",
+      "Great Rune Bosses"
+    ],
+    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:4|"
+  },
+  {
+    "name": "Church of the Plague Sacred Tear",
+    "region": "Caelid",
+    "category": [
+      "Sacred Tears",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Southern Aeonia Swamp Bank Golden Seed",
+    "region": "Caelid",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Sellia Golden Seed",
+    "region": "Caelid",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Caelid Highway North Merchant Shop Item",
+    "region": "Caelid",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Southern Aeonia Merchant Shop Item",
+    "region": "Caelid",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Fort Faroth Dectus Medallion",
+    "region": "Dragonbarrow",
+    "category": [
+      "Key Items"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Dragonbarrow Golden Seed",
+    "region": "Dragonbarrow",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Dragonbarrow Isolated Merchant Shop Item",
+    "region": "Dragonbarrow",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Magma Wyrm Makar Defeated",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:2| AND |Progressive Stone Level:1|"
+  },
+  {
+    "name": "Elemer of the Briar Defeated",
+    "region": "Altus Plateau",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:4|"
+  },
+  {
+    "name": "Stormcaller Church Sacred Tear",
+    "region": "Altus Plateau",
+    "category": [
+      "Sacred Tears",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Second Church of Marika Sacred Tear",
+    "region": "Altus Plateau",
+    "category": [
+      "Sacred Tears",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Southeast of Windmill Village Golden Seed",
+    "region": "Altus Plateau",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "North of Outer Wall Phantom Tree Golden Seed",
+    "region": "Capital Outskirts",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Erdtree Gazing Hill Golden Seed",
+    "region": "Altus Plateau",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Altus Highway Junction Golden Seed",
+    "region": "Altus Plateau",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Altus Plateau Minor Erdtree Golden Seed",
+    "region": "Altus Plateau",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Forest-Spanning Greatbridge Merchant Shop Item",
+    "region": "Altus Plateau",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Outer Wall Phantom Tree Golden Seed",
+    "region": "Capital Outskirts",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Capital Outskirts Merchant Shop Item",
+    "region": "Capital Outskirts",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Rold Medallion",
+    "region": "Leyndell Royal Capital",
+    "category": [
+      "Key Items"
+    ],
+    "requires": "|Morgott Killable|"
+  },
+  {
+    "name": "Godfrey Defeated",
+    "region": "Leyndell Royal Capital",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:6| AND |Progressive Stone Level:6|"
+  },
+  {
+    "name": "Morgott Defeated",
+    "region": "Leyndell Royal Capital",
+    "category": [
+      "Major Bosses",
+      "Great Rune Bosses"
+    ],
+    "requires": "|Progressive Max Level:6| AND |Progressive Stone Level:6|"
+  },
+  {
+    "name": "West Capital Rampart Golden Seed",
+    "region": "Leyndell Royal Capital",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Road of Iniquity Golden Seed",
+    "region": "Mt. Gelmir",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Seethewater River North Golden Seed",
+    "region": "Mt. Gelmir",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Ninth Mt. Gelmir Campsite Merchant Shop Item",
+    "region": "Mt. Gelmir",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Volcano Manor Drawing Room Key",
+    "region": "Mt. Gelmir",
+    "category": [
+      "Key Items"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Godskin Noble Defeated",
+    "region": "Mt. Gelmir",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Drawing Room Key| AND |Progressive Max Level:5| AND |Progressive Stone Level:6|"
+  },
+  {
+    "name": "Rykard Defeated",
+    "region": "Mt. Gelmir",
+    "category": [
+      "Major Bosses",
+      "Great Rune Bosses"
+    ],
+    "requires": "|Drawing Room Key| AND |Progressive Max Level:5| AND |Progressive Stone Level:6|"
+  },
+  {
+    "name": "Forbidden Lands Golden Seed",
+    "region": "Forbidden Lands",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Sewer Mohg Defeated",
+    "region": "Leyndell Royal Capital",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:6| AND |Progressive Stone Level:6|"
+  },
+  {
+    "name": "Mimic Tear Defeated",
+    "region": "Nokron Eternal City",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:6|"
+  },
+  {
+    "name": "Regal Ancestor Spirit Defeated",
+    "region": "Nokron Eternal City",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:6|"
+  },
+  {
+    "name": "Valiant Gargoyles Defeated",
+    "region": "Nokron Eternal City",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:6|"
+  },
+  {
+    "name": "Astel Defeated",
+    "region": "Lake of Rot",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:5| AND |Progressive Stone Level:6|"
+  },
+  {
+    "name": "Dragonkin Soldier of Nokstella Defeated",
+    "region": "Ainsel River",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:3| AND |Progressive Stone Level:2|"
+  },
+  {
+    "name": "Nokstella Golden Seed",
+    "region": "Ainsel River",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Ainsel River Merchant Shop Item",
+    "region": "Ainsel River",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Secret Haligtree Medallion (Left)",
+    "region": "Mountaintops of the Giants",
+    "category": [
+      "Key Items"
+    ],
+    "requires": "|Commander Niall Killable|"
+  },
+  {
+    "name": "Commander Niall Defeated",
+    "region": "Mountaintops of the Giants",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:7| AND |Progressive Stone Level:8|"
+  },
+  {
+    "name": "First Church of Marika Sacred Tear",
+    "region": "Mountaintops of the Giants",
+    "category": [
+      "Sacred Tears",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "South of Freezing Lake Golden Seed",
+    "region": "Mountaintops of the Giants",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Mountaintops Merchant Shop Item",
+    "region": "Mountaintops of the Giants",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Fire Giant Defeated",
+    "region": "Mountaintops of the Giants",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:7| AND |Progressive Stone Level:8|"
+  },
+  {
+    "name": "Church of Repose Sacred Tear",
+    "region": "Mountaintops of the Giants",
+    "category": [
+      "Sacred Tears",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Foot of the Forge Golden Seed",
+    "region": "Mountaintops of the Giants",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Placidusax Defeated",
+    "region": "Crumbling Farum Azula",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+  },
+  {
+    "name": "Godskin Duo Defeated",
+    "region": "Crumbling Farum Azula",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+  },
+  {
+    "name": "Maliketh Defeated",
+    "region": "Crumbling Farum Azula",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+  },
+  {
+    "name": "Dragon Temple Lift Golden Seed",
+    "region": "Crumbling Farum Azula",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": "|Farum Azula Stonesword Key|"
+  },
+  {
+    "name": "Near Dragon Temple Rooftop Golden Seed",
+    "region": "Crumbling Farum Azula",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Ordina Golden Seed",
+    "region": "Consecrated Snowfield",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Consecrated Snowfield Golden Seed ",
+    "region": "Consecrated Snowfield",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Haligtree Loretta Defeated",
+    "region": "Miquella's Haligtree",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+  },
+  {
+    "name": "Malenia Defeated",
+    "region": "Miquella's Haligtree",
+    "category": [
+      "Major Bosses",
+      "Great Rune Bosses"
+    ],
+    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+  },
+  {
+    "name": "Mohg Defeated",
+    "region": "Mohgwyn Palace",
+    "category": [
+      "Major Bosses",
+      "Great Rune Bosses"
+    ],
+    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+  },
+  {
+    "name": "Mohgwyn Palace Golden Seed",
+    "region": "Mohgwyn Palace",
+    "category": [
+      "Golden Seeds",
+      "Flask Upgrades"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Mohgwyn Palace Merchant Shop Item",
+    "region": "Mohgwyn Palace",
+    "category": [
+      "Shops"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Hoarah Loux Defeated",
+    "region": "Leyndell Ashen Capital",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+  },
+  {
+    "name": "Cursemark of Death",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Key Items"
+    ],
+    "requires": "|Carian Inverted Statue|"
+  }
+]
