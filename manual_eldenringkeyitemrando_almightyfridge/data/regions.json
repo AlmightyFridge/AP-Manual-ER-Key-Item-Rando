@@ -20,7 +20,7 @@
     "connects_to": [
       "Liurnia of the Lakes"
     ],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:1| AND |Progressive Stone Level:1|) OR ({YamlCompare(Region_Locking == 1)}"
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:1| AND |Progressive Stone Level:1|) OR {YamlCompare(Region_Locking == 1)}"
   },
   "Liurnia of the Lakes": {
     "connects_to": [
@@ -91,7 +91,7 @@
     "connects_to": [
       "Forbidden Lands"
     ],
-    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:6| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}) AND {OptionCount(Great Rune, Great_Runes_Capital)} AND (|Draconic Tree Sentinel Killable| OR |Fia's Champs Killable|)"
+    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:6| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}) AND {OptionCount(Great Rune, Great_Runes_Capital)} AND (|Capital Entry Boss Killable|)"
   },
   "Forbidden Lands": {
     "connects_to": [
@@ -110,11 +110,11 @@
       "Mohgwyn Palace",
       "Miquella's Haligtree"
     ],
-    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:7| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}) AND |Secret Haligtree Medallion (Left)| AND |Secret Haligtree Medallion (Right)|"
+    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:7| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}) AND |Haligtree Secret Medallion (Left)| AND |Haligtree Secret Medallion (Right)|"
   },
   "Mohgwyn Palace": {
     "connects_to": [],
-    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}) AND ((|Secret Haligtree Medallion (Left)| AND |Secret Haligtree Medallion (Right)|) OR |Pureblood Knight's Medal|)"
+    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}) AND ((|Haligtree Secret Medallion (Left)| AND |Haligtree Secret Medallion (Right)|) OR |Pureblood Knight's Medal|)"
   },
   "Miquella's Haligtree": {
     "connects_to": [],
@@ -128,6 +128,6 @@
   },
   "Leyndell Ashen Capital": {
     "connects_to": [],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|) OR ({YamlCompare(Region_Locking == 1)} AND |Maliketh Killable|)"
+    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|) OR ({YamlCompare(Region_Locking == 1)} AND |Fire Giant Killable|)"
   }
 }

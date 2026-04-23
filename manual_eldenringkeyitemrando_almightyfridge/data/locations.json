@@ -3,7 +3,9 @@
     "name": "Elden Beast Defeated",
     "region": "Leyndell Ashen Capital",
     "victory": true,
-    "category": [],
+    "category": [
+      "Victory"
+    ],
     "requires": "{OptionCount(Great Rune, Great_Runes_Victory)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|"
   },
   {
@@ -307,7 +309,7 @@
     "category": [
       "Key Items"
     ],
-    "requires": "|Discarded Palace Key| AND |Rennala Killable|"
+    "requires": "|Discarded Palace Key| AND |Red Wolf Killable|"
   },
   {
     "name": "Raya Lucaria Imbued Sword Key",
@@ -723,7 +725,7 @@
       "Golden Seeds",
       "Flask Upgrades"
     ],
-    "requires": ""
+    "requires": "|Valiant Gargoyles Killable|"
   },
   {
     "name": "Ainsel River Merchant Shop Item",
@@ -734,7 +736,7 @@
     "requires": ""
   },
   {
-    "name": "Secret Haligtree Medallion (Left)",
+    "name": "Haligtree Secret Medallion (Left)",
     "region": "Mountaintops of the Giants",
     "category": [
       "Key Items"
@@ -853,7 +855,7 @@
     "requires": ""
   },
   {
-    "name": "Consecrated Snowfield Golden Seed ",
+    "name": "Consecrated Snowfield Golden Seed",
     "region": "Consecrated Snowfield",
     "category": [
       "Golden Seeds",

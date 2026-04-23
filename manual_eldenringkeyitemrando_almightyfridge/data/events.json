@@ -5,14 +5,7 @@
     },
 
     {
-        "name": "Fia's Champs Killable",
-        "region": "Deeproot Depths",
-        "requires": "|Progressive Max Level:5| AND |Progressive Stone Level:6|"
-    },
-
-    {
-        "name": "Draconic Tree Sentinel Killable",
-        "region": "Capital Outskirts",
+        "name": "Capital Entry Boss Killable",
         "requires": "|Progressive Max Level:5| AND |Progressive Stone Level:6|"
     },
 
@@ -37,11 +30,6 @@
     },
 
     {
-        "name": "Rennala Killable",
-        "copy_location": "Rennala Defeated"
-    },
-
-    {
         "name": "Starscourge Radahn Killable",
         "copy_location": "Starscourge Radahn Defeated"
     },
@@ -59,11 +47,6 @@
     {
         "name": "Fire Giant Killable",
         "copy_location": "Fire Giant Defeated"
-    },
-
-    {
-        "name": "Maliketh Killable",
-        "copy_location": "Maliketh Defeated"
     }
 
 
