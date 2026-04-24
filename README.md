@@ -1,6 +1,8 @@
 # Elden Ring Key Item Randomizer for Manual Archipelago
 
-This implementation of Elden Ring Randomizer for Manual Archipelago randomizes the default 109 locations that key items can be placed when using the Elden Ring Item and Enemy Randomizer by thefifthmatt.
+This implementation of Elden Ring Randomizer for Manual Archipelago randomizes the default 109 locations that key items can be placed when using the Elden Ring Item and Enemy Randomizer by thefifthmatt.<br />
+<br />
+**PopTracker pack available here:** https://github.com/AlmightyFridge/ER-Key-Item-Rando-Tracker
 
 
 ## Requirements:
@@ -12,18 +14,18 @@ This implementation of Elden Ring Randomizer for Manual Archipelago randomizes t
 
 
 ## How it works:
-The Item and Enemy Randomizer handles all of the in game randomization while archipelago handles the self imposed "lock and key" gameplay of the randomizer. <br />
-Each area now has logical requirements to enter in the form of level cap and weapon upgrade cap items. These were determined by taking the approximate low end of the recommended level for each area as stated on the Elden Ring wiki. This article can be found here: https://eldenring.wiki.fextralife.com/Recommended+Level+by+Location <br />
-You start in Limgrave with Limgrave and Weeping Peninsula unlocked (level cap 0 / stone level 0).<br />
-Your starting max level is 20 and your starting stone level is 0. This means you cannot level past 20 and you cannot use somber or smithing stones on your weapons, respectively. <br />
-Each Progressive Max Level received will increase your level cap by 10, up to a possible 150. <br />
-Each Progressive Stone Level will increment what somber and smithing stones you can use on your weapons. For example, with 4 Progressive Stone Levels you can use somber stone 4 on your somber weapons and smithing stone 4 on your smithing weapons. <br />
+The Item and Enemy Randomizer handles all of the in game randomization while archipelago handles the self imposed "lock and key" gameplay of the randomizer. <br /><br />
+Each area now has logical requirements to enter in the form of level cap and weapon upgrade cap items. These were determined by taking the approximate low end of the recommended level for each area as stated on the Elden Ring wiki. This article can be found here: https://eldenring.wiki.fextralife.com/Recommended+Level+by+Location <br /><br />
+You start in Limgrave with Limgrave and Weeping Peninsula unlocked (level cap 0 / stone level 0).<br /><br />
+Your starting max level is 20 and your starting stone level is 0. This means you cannot level past 20 and you cannot use somber or smithing stones on your weapons, respectively. <br /><br />
+Each Progressive Max Level received will increase your level cap by 10, up to a possible 150. <br /><br />
+Each Progressive Stone Level will increment what somber and smithing stones you can use on your weapons. For example, with 4 Progressive Stone Levels you can use somber stone 4 on your somber weapons and smithing stone 4 on your smithing weapons. <br /><br />
 Most key items have been removed as they do not lock locations in the randomizer. <br />
 - Example 1: Dark Moon Ring has been removed as Moonlight Altar does not have important locations in these settings.
 - Example 2: Rusty Key has been removed as Godrick the Grafted can be accessed through Gostoc opening the gate. 
 <!-- -->
 As the in game randomizer and the manual will have different items at each location, the Glorious Merchant Mod (or cheat engine, if you prefer) is used to give yourself items that the manual says you should have. This mod changes Kale's shop into a series of categorized shops where any item in the game can be found and bought for 0 runes.<br />
-<br />
+<br /><br />
 This implementation does not try to restrict how you play, but rather where your available locations are. You will still need to pick up random items in the Lands Between to find your smithing/somber stones, your equipment, your flask upgrades, your spells, your consumables, etc.
 
 
