@@ -15,7 +15,7 @@ This implementation of Elden Ring Randomizer for Manual Archipelago randomizes t
 
 ## How it works:
 The Item and Enemy Randomizer handles all of the in game randomization while archipelago handles the self imposed "lock and key" gameplay of the randomizer. <br /><br />
-Each area now has logical requirements to enter in the form of level cap and weapon upgrade cap items. These were determined by taking the approximate low end of the recommended level for each area as stated on the Elden Ring wiki. This article can be found here: https://eldenring.wiki.fextralife.com/Recommended+Level+by+Location <br /><br />
+Each area now has logical requirements in the form of level cap and weapon upgrade cap items. These were determined by taking the approximate low end of the recommended level for each area as stated on the Elden Ring wiki. This article can be found here: https://eldenring.wiki.fextralife.com/Recommended+Level+by+Location <br /><br />
 You start in Limgrave with Limgrave and Weeping Peninsula unlocked (level cap 0 / stone level 0).<br /><br />
 Your starting max level is 20 and your starting stone level is 0. This means you cannot level past 20 and you cannot use somber or smithing stones on your weapons, respectively. <br /><br />
 Each Progressive Max Level received will increase your level cap by 10, up to a possible 150. <br /><br />
@@ -63,8 +63,8 @@ Click "Launch Elden Ring" and start playing the game. <br />
 - Progressive Stone Level: Starting stone level is 0. Each Progressive Stone Level increases the smithing and somber smithing stone level that you can use by 1. Ancient Dragon Stones are considered to be stone level 10. <br />
 - Farum Azula Stonesword Key: The location "Dragon Temple Lift Golden Seed" is the only check in this randomizer *requiring* a stonesword key through normal gameplay. If you lack a stonesword key when obtaining this item, grab one from from the Glorious Merchant shop. <br />
 - Free XXXXX items: Pick one of whatever category from the Glorious Merchant menu. This can be done at your leisure. Certain talismans have upgrade versions that are meant to be +1, +2, or +3 versions of their base talisman without being named in that format; please use your judgement when selecting them. <br />
-- Discard Weapon (trap): You must discard one of your currently held weapons before continuing normal play. <br />
-- Fight a Minor Boss (trap): You must defeat a non-required boss before you can check your next location. <br />
+- Discard Weapon (trap): You must discard one of your actively held weapons before continuing normal play. <br />
+- Fight a Minor Boss (trap): You must defeat a boss that does not send a check before you can check your next location. <br />
 - Immediate Memory of Grace (trap): You must stop whatever you are doing and use the Memory of Grace item before continuing normal play. <br />
 
 
@@ -84,28 +84,28 @@ In the Item and Enemy Randomizer:
 
 
 ## Area Level and Stone Minimum Requirements
-| Area | Levels | stones |
+| Area | Levels | Stones |
 | ---- | ------ | ------ |
-| Limgrave 	|	0| 	0 |
-| Weeping Peninsula |	0| 	0 |
-| Stormvale Castle		|+1|	+1 |
-| Liurnia 		|+2|	+1 |
-| Raya Lucaria 		|+3|	+2 |
-| Ainsel River			|+3|	+2 |
-| Siofra River			|+3|	+2 |
-| Caelid 			|+4|	+4 |
-| Altus Plateau 		|+4 |	+4 |
-| Nokron, Eternal City 	|+4 |	+6 |
-| Deeproot Depths		|+5|	+6 |
-| Capital Outskirts 	|+5|	+6 |
-| Mt. Gelmir 		|+5|	+6 |
-| Lake of Rot 		|+5|	+6 |
-| Dragonbarrow 		|+6|	+6 |
-| Leyndell 		|+6|	+6 |
-| Forbidden Lands 	|+7|	+8 |
-| Mountaintops		|+7|	+8 |
-| Consecrated Snowfield 	|+7|	+8 |
-| Mohgwyn Palace 		|+8|	+8 |
-| Haligtree 		|+8|	+8 |
-| Farum Azula 		|+8|	+8 |
-| Ashen Capital 		|+8|	+8 |
+| Limgrave 	|	0 (20)| 	0 |
+| Weeping Peninsula |	0 (20)| 	0 |
+| Stormvale Castle		|+1 (30)|	+1 |
+| Liurnia 		|+2 (40)|	+1 |
+| Raya Lucaria 		|+3 (50)|	+2 |
+| Ainsel River			|+3 (50)|	+2 |
+| Siofra River			|+3 (50)|	+2 |
+| Caelid 			|+4 (60)|	+4 |
+| Altus Plateau 		|+4 (60)|	+4 |
+| Nokron, Eternal City 	|+4 (60)|	+6 |
+| Deeproot Depths		|+5 (70)|	+6 |
+| Capital Outskirts 	|+5 (70)|	+6 |
+| Mt. Gelmir 		|+5 (70)|	+6 |
+| Lake of Rot 		|+5 (70)|	+6 |
+| Dragonbarrow 		|+6 (80)|	+6 |
+| Leyndell 		|+6 (80)|	+6 |
+| Forbidden Lands 	|+7 (90)|	+8 |
+| Mountaintops		|+7 (90)|	+8 |
+| Consecrated Snowfield 	|+7 (90)|	+8 |
+| Mohgwyn Palace 		|+8 (100)|	+8 |
+| Haligtree 		|+8 (100)|	+8 |
+| Farum Azula 		|+8 (100)|	+8 |
+| Ashen Capital 		|+8 (100)|	+8 |
