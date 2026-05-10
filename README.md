@@ -1,6 +1,6 @@
 # Elden Ring Key Item Randomizer for Manual Archipelago
 
-This implementation of Elden Ring Randomizer for Manual Archipelago randomizes the default 109 locations that key items can be placed when using the Elden Ring Item and Enemy Randomizer by thefifthmatt.<br />
+This implementation of Elden Ring Randomizer for Manual Archipelago randomizes the default locations that key items can be placed when using the Elden Ring Item and Enemy Randomizer by thefifthmatt.<br />
 <br />
 **PopTracker pack available here:** https://github.com/AlmightyFridge/ER-Key-Item-Rando-Tracker
 
@@ -24,7 +24,7 @@ Most key items have been removed as they do not lock locations in the randomizer
 - Example 1: Dark Moon Ring has been removed as Moonlight Altar does not have important locations in these settings.
 - Example 2: Rusty Key has been removed as Godrick the Grafted can be accessed through Gostoc opening the gate. 
 <!-- -->
-As the in game randomizer and the manual will have different items at each location, the Glorious Merchant Mod (or cheat engine, if you prefer) is used to give yourself items that the manual says you should have. This mod changes Kale's shop into a series of categorized shops where any item in the game can be found and bought for 0 runes.<br />
+As the in game randomizer and the manual will have different items at each location, the Glorious Merchant Mod is used to give yourself items that the manual says you should have. This mod changes Kale's shop into a series of categorized shops where any item in the game can be found and bought for 0 runes.<br />
 <br /><br />
 This implementation does not try to restrict how you play, but rather where your available locations are. You will still need to pick up random items in the Lands Between to find your smithing/somber stones, your equipment, your flask upgrades, your spells, your consumables, etc.
 
