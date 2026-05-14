@@ -103,7 +103,7 @@
     "connects_to": [
       "Crumbling Farum Azula"
     ],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:7| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}"
+    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:7| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}) AND (({YamlCompare(Rold_Medallion_Setting == 0)} AND {OptionCount(Great Rune, Great_Runes_Rold)}) OR |Rold Medallion|)"
   },
   "Consecrated Snowfield": {
     "connects_to": [

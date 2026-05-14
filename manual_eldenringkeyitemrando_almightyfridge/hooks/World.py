@@ -105,7 +105,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # Use this hook to remove items from the item pool
     itemNamesToRemove: list[str] = [] # List of item names
 
-    if get_option_value(multiworld, player, "Rold_Medallion") == 0:
+    if get_option_value(multiworld, player, "Rold_Medallion_Setting") == 0:
         itemNamesToRemove.append("Rold Medallion")
     # Add your code here to calculate which items to remove.
     #
@@ -119,7 +119,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # Some other useful hook options:
 
     ## Place an item at a specific location
-    if get_option_value(multiworld, player, "Rold_Medallion") == 1:
+    if get_option_value(multiworld, player, "Rold_Medallion_Setting") == 1:
         itemName = "Rold Medallion"
         locationName = "Rold Medallion"
 
@@ -153,6 +153,7 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
+    pass
     # Use this hook to modify the access rules for a given location
 
     #def Example_Rule(state: CollectionState) -> bool:
@@ -161,17 +162,17 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         # CollectionState is defined in BaseClasses
         #return True
 
-    if get_option_value(multiworld, player, "Rold_Medallion") > 0:
-        region_to_change = multiworld.get_region("Forbidden Lands", player)
+    #if get_option_value(multiworld, player, "Rold_Medallion_Setting") > 0:
+        #region_to_change = multiworld.get_region("Forbidden Lands", player)
 
-        for region_exit in region_to_change.exits:
-            add_rule((region_exit), lambda state: state.has("Rold Medallion", player))
+        #for region_exit in region_to_change.exits:
+            #add_rule((region_exit), lambda state: state.has("Rold_Medallion_Setting", player))
 
-    if get_option_value(multiworld, player, "Rold_Medallion") == 0:
-        region_to_change = multiworld.get_region("Forbidden Lands", player)
+    #if get_option_value(multiworld, player, "Rold_Medallion_Setting") == 0:
+        #region_to_change = multiworld.get_region("Forbidden Lands", player)
 
-        for region_exit in region_to_change.exits:
-            add_rule((region_exit), lambda state: state.has("Great Rune", player, get_option_value(multiworld, player, "Great_Runes_Rold")))
+        #for region_exit in region_to_change.exits:
+            #add_rule((region_exit), lambda state: state.has("Great Rune", player, get_option_value(multiworld, player, "Great_Runes_Rold")))
 
     ## Common functions:
     # location = world.get_location(location_name, player)

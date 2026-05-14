@@ -45,7 +45,7 @@
         },
 
         "Rold_Medallion_Setting":{
-            "display_name": "Rold Medallion",
+            "display_name": "Rold Medallion Setting",
             "description": [
                 "Determines whether the Grand Lift of Rold is accessed using Great Runes, if the Rold Medallion is given by Melina after killing Morgott (vanilla), or randomized into the pool"
             ],
