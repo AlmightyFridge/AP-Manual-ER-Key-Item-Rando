@@ -16,7 +16,7 @@ This implementation of Elden Ring Randomizer for Manual Archipelago randomizes t
 ## How it works:
 The Item and Enemy Randomizer handles all of the in game randomization while archipelago handles the self imposed "lock and key" gameplay of the randomizer. <br /><br />
 Each area now has logical requirements in the form of level cap and weapon upgrade cap items. These were determined by taking the approximate low end of the recommended level for each area as stated on the Elden Ring wiki. This article can be found here: https://eldenring.wiki.fextralife.com/Recommended+Level+by+Location <br /><br />
-You start in Limgrave with Limgrave and Weeping Peninsula unlocked (level cap 0 / stone level 0).<br /><br />
+You start in Limgrave with Limgrave and Weeping Peninsula unlocked.<br /><br />
 Your starting max level is 20 and your starting stone level is 0. This means you cannot level past 20 and you cannot use somber or smithing stones on your weapons, respectively. <br /><br />
 Each Progressive Max Level received will increase your level cap by 10, up to a possible 150. <br /><br />
 Each Progressive Stone Level will increment what somber and smithing stones you can use on your weapons. For example, with 4 Progressive Stone Levels you can use somber stone 4 on your somber weapons and smithing stone 4 on your smithing weapons. <br /><br />
@@ -32,7 +32,7 @@ This implementation does not try to restrict how you play, but rather where your
 ## Setup:
 Download all requirements, install the apworld, and unzip the mods in a convenient to access location.<br />
 <br />
-Customize your YAML file to your liking, generate and host the game as normal, then connect to your Archipelago room using the Manual Client.<br />
+Customize your YAML file to your liking, generate and host the game as normal, then connect to your Archipelago room using the Manual Client or PopTracker.<br />
 <br />
 Open EldenRingRandomizer.exe from the Elden Ring Randomizer-[version number] folder <br />
 Match the settings in the randomizer program to your chosen settings in your yaml <br />
@@ -55,6 +55,8 @@ Click "Add dll mod" and find and select the "ermerchant.dll" from the Glorious M
 Make sure "reroll seed" is checked to make a new seed for the randomizer. <br />
 Click "Randomize items and enemies" and wait until a green bar at the bottom of the window appears saying "Done! ..." <br />
 Click "Launch Elden Ring" and start playing the game. <br />
+<br />
+To continue a previously closed session, open the EldenRingRandomizer.exe and only click "Launch Elden Ring". <br />
 
 
 ## What do the items mean?
