@@ -119,7 +119,8 @@
         "Early_Academy_Key":{
             "display_name": "Early Academy Key",
             "description": [
-                "If enabled, the Academy Glintstone Key is placed in Sphere 1"
+                "If enabled, the Academy Glintstone Key is placed in Sphere 1",
+                "if no optional locations are enabled and region locking is set to all, it will be placed in its vanilla location"
             ],
             "type": "Toggle",
             "default": false

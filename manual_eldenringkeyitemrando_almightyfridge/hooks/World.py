@@ -139,7 +139,16 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             remove_specific_item(item_pool, item_to_place)
 
     if is_option_enabled(multiworld, player, "Early_Academy_Key"):
-        multiworld.early_items[player].update({"Academy Glintstone Key": 1})
+        if is_option_enabled(multiworld, player, "Shopsanity") or is_option_enabled(multiworld, player, "Flask_Upgrade_Sanity") or get_option_value(multiworld, player, "Region_Locking") == 1:
+            multiworld.early_items[player].update({"Academy Glintstone Key": 1})
+        else:
+            itemName = "Academy Glintstone Key"
+            locationName = "Academy Glintstone Key"
+
+            location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == locationName)
+            item_to_place = next(i for i in item_pool if i.name == itemName)
+            location.place_locked_item(item_to_place)
+            remove_specific_item(item_pool, item_to_place)
 
     return item_pool
 
