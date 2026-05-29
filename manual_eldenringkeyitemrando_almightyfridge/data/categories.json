@@ -4,5 +4,14 @@
     },
     "Flask Upgrades":{
         "yaml_option": ["Flask_Upgrade_Sanity"]
+    },
+    "Dragons":{
+        "yaml_option": ["Dragonsanity"]
+    },
+    "Paintings":{
+        "yaml_option": ["Paintingsanity"]
+    },
+    "Rises":{
+        "yaml_option": ["Risesanity"]
     }
 }

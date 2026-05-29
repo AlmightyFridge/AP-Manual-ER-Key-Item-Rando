@@ -21,7 +21,7 @@ Your starting max level is 20 and your starting stone level is 0. This means you
 Each Progressive Max Level received will increase your level cap by 10, up to a possible 150. <br /><br />
 Each Progressive Stone Level will increment what somber and smithing stones you can use on your weapons. For example, with 4 Progressive Stone Levels you can use somber stone 4 on your somber weapons and smithing stone 4 on your smithing weapons. <br /><br />
 Most key items have been removed as they do not lock locations in the randomizer. <br />
-- Example 1: Dark Moon Ring has been removed as Moonlight Altar does not have important locations in these settings.
+- Example 1: Dark Moon Ring is removed if Moonlight Altar has no check locations.
 - Example 2: Rusty Key has been removed as Godrick the Grafted can be accessed through Gostoc opening the gate. 
 <!-- -->
 As the in game randomizer and the manual will have different items at each location, the Glorious Merchant Mod is used to give yourself items that the manual says you should have. This mod changes Kale's shop into a series of categorized shops where any item in the game can be found and bought for 0 runes.<br />
@@ -57,6 +57,15 @@ Click "Randomize items and enemies" and wait until a green bar at the bottom of 
 Click "Launch Elden Ring" and start playing the game. <br />
 <br />
 To continue a previously closed session, open the EldenRingRandomizer.exe and only click "Launch Elden Ring". <br />
+
+**Optional**: <br />
+If you would like the other "sanity" options to potentially have important items in game: <br />
+&emsp;Item Randomizer -> Custom Item Placement: ON <br />
+&emsp;Click on Edit Custom Item Placement... <br />
+&emsp;&emsp;Location Groups -> Important locations <br />
+&emsp;&emsp;&emsp;Only placed in: -> Click the search box <br />
+&emsp;&emsp;&emsp;&emsp;Search for and add "Overworld dragon minibosses", "Paintings", and/or "Rises", matching your settings <br />
+
 
 
 ## What do the items mean?
@@ -103,6 +112,7 @@ In the Item and Enemy Randomizer:
 | Capital Outskirts 	|+5 (70)|	+6 |
 | Mt. Gelmir 		|+5 (70)|	+6 |
 | Lake of Rot 		|+5 (70)|	+6 |
+| Moonlight Altar 		|+5 (70)|	+6 |
 | Dragonbarrow 		|+6 (80)|	+6 |
 | Leyndell 		|+6 (80)|	+6 |
 | Forbidden Lands 	|+7 (90)|	+8 |

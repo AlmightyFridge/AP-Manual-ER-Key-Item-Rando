@@ -650,7 +650,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Drawing Room Key| AND |Progressive Max Level:5| AND |Progressive Stone Level:6|"
+    "requires": "(|Drawing Room Key| OR ({YamlEnabled(Volcano_Manor_Abduction_Skip)} AND |Academy Glintstone Key|)) AND |Progressive Max Level:5| AND |Progressive Stone Level:6|"
   },
   {
     "name": "Rykard Defeated",
@@ -659,7 +659,7 @@
       "Major Bosses",
       "Great Rune Bosses"
     ],
-    "requires": "|Drawing Room Key| AND |Progressive Max Level:5| AND |Progressive Stone Level:6|"
+    "requires": "(|Drawing Room Key| OR ({YamlEnabled(Volcano_Manor_Abduction_Skip)} AND |Academy Glintstone Key|)) AND |Progressive Max Level:5| AND |Progressive Stone Level:6|"
   },
   {
     "name": "Forbidden Lands Golden Seed",
@@ -921,5 +921,173 @@
       "Key Items"
     ],
     "requires": "|Carian Inverted Statue|"
+  },
+  {
+    "name": "Agheel Defeated",
+    "region": "Limgrave",
+    "category": [
+      "Dragons"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Smarag Defeated",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Dragons"
+    ],
+    "requires": "|Progressive Max Level:1| AND |Progressive Stone Level:1|"
+  },
+  {
+    "name": "Ekzykes Defeated",
+    "region": "Caelid",
+    "category": [
+      "Dragons"
+    ],
+    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:4|"
+  },
+  {
+    "name": "Greyll Defeated",
+    "region": "Dragonbarrow",
+    "category": [
+      "Dragons"
+    ],
+    "requires": "|Progressive Max Level:6| AND |Progressive Stone Level:6|"
+  },
+  {
+    "name": "Lansseax Defeated",
+    "region": "Altus Plateau",
+    "category": [
+      "Dragons"
+    ],
+    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:4|"
+  },
+  {
+    "name": "Adula Defeated",
+    "region": "Moonlight Altar",
+    "category": [
+      "Dragons"
+    ],
+    "requires": "|Progressive Max Level:5| AND |Progressive Stone Level:6|"
+  },
+  {
+    "name": "Borealis Defeated",
+    "region": "Mountaintops of the Giants",
+    "category": [
+      "Dragons"
+    ],
+    "requires": "|Progressive Max Level:7| AND |Progressive Stone Level:8|"
+  },
+  {
+    "name": "Painting - Homing Instinct",
+    "region": "Limgrave",
+    "category": [
+      "Paintings"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Painting - Prophecy",
+    "region": "Stormvale Castle",
+    "category": [
+      "Paintings"
+    ],
+    "requires": "|Margit Killable|"
+  },
+  {
+    "name": "Painting - Resurrection",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Paintings"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Painting - Redmane",
+    "region": "Caelid",
+    "category": [
+      "Paintings"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Painting - Champion's Song",
+    "region": "Altus Plateau",
+    "category": [
+      "Paintings"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Painting - Flightless Bird",
+    "region": "Leyndell Royal Capital",
+    "category": [
+      "Paintings"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Painting - Sorcerer",
+    "region": "Mountaintops of the Giants",
+    "category": [
+      "Paintings"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Oridys's Rise Chest",
+    "region": "Weeping Peninsula",
+    "category": [
+      "Rises"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Converted Tower Chest",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Rises"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Testu's Rise Chest",
+    "region": "Liurnia of the Lakes",
+    "category": [
+      "Rises"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Lenne's Rise Chest",
+    "region": "Dragonbarrow",
+    "category": [
+      "Rises"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Mirage Rise Chest",
+    "region": "Altus Plateau",
+    "category": [
+      "Rises"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Chelona's Rise Chest",
+    "region": "Moonlight Altar",
+    "category": [
+      "Rises"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Heretical Rise Chest",
+    "region": "Mountaintops of the Giants",
+    "category": [
+      "Rises"
+    ],
+    "requires": ""
   }
 ]

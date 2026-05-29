@@ -94,6 +94,25 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
         item_config["Free +2 Talisman"] += 2
         item_config["Free +3 Talisman"] += 1
 
+    if is_option_enabled(multiworld, player, "Dragonsanity"):
+        item_config["Free Weapon"] += 1
+        item_config["Free Shield"] += 1
+        item_config["Free Armor"] += 1
+        item_config["Free Spell"] += 1
+
+    if is_option_enabled(multiworld, player, "Paintingsanity"):
+        item_config["Free +0 Talisman"] += 1
+        item_config["Free +1 Talisman"] += 1
+        item_config["Free +2 Talisman"] += 1
+        item_config["Free +3 Talisman"] += 1
+    
+    if is_option_enabled(multiworld, player, "Risesanity"): 
+        item_config["Free Weapon"] += 1
+        item_config["Free Spell"] += 1
+        item_config["Free +0 Talisman"] += 1
+        item_config["Free +1 Talisman"] += 1
+        item_config["Free +2 Talisman"] += 1
+
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
@@ -107,6 +126,10 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     if get_option_value(multiworld, player, "Rold_Medallion_Setting") == 0:
         itemNamesToRemove.append("Rold Medallion")
+    
+    if not is_option_enabled(multiworld, player, "Dragonsanity") and not is_option_enabled(multiworld, player, "Risesanity"):
+        itemNamesToRemove.append("Dark Moon Ring")
+
     # Add your code here to calculate which items to remove.
     #
     # Because multiple copies of an item can exist, you need to add an item name
@@ -117,6 +140,8 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         remove_specific_item(item_pool, item)
 
     # Some other useful hook options:
+
+    is_extra_locations = is_option_enabled(multiworld, player, "Shopsanity") or is_option_enabled(multiworld, player, "Flask_Upgrade_Sanity") or is_option_enabled(multiworld, player, "Dragonsanity") or is_option_enabled(multiworld, player, "Paintingsanity") or is_option_enabled(multiworld, player, "Risesanity")
 
     ## Place an item at a specific location
     if get_option_value(multiworld, player, "Rold_Medallion_Setting") == 1:
@@ -139,7 +164,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             remove_specific_item(item_pool, item_to_place)
 
     if is_option_enabled(multiworld, player, "Early_Academy_Key"):
-        if is_option_enabled(multiworld, player, "Shopsanity") or is_option_enabled(multiworld, player, "Flask_Upgrade_Sanity") or get_option_value(multiworld, player, "Region_Locking") == 1:
+        if is_extra_locations or get_option_value(multiworld, player, "Region_Locking") == 1:
             multiworld.early_items[player].update({"Academy Glintstone Key": 1})
         else:
             itemName = "Academy Glintstone Key"

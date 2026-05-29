@@ -107,6 +107,36 @@
             "default": true
         }, 
 
+        "Dragonsanity":{
+            "display_name": "Dragonsanity",
+            "description": [
+                "If enabled, Overworld Dragon Boss locations are added into the pool",
+                "Enabling this option adds useful items to the pool"
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+
+        "Paintingsanity":{
+            "display_name": "Paintingsanity",
+            "description": [
+                "If enabled, Painting locations are added into the pool",
+                "Enabling this option adds useful items to the pool"
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+
+        "Risesanity":{
+            "display_name": "Risesanity",
+            "description": [
+                "If enabled, Rise reward locations are added into the pool",
+                "Enabling this option adds useful items to the pool"
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+
         "Vanilla_Great_Runes":{
             "display_name": "Vanilla Great Runes",
             "description": [
@@ -120,7 +150,17 @@
             "display_name": "Early Academy Key",
             "description": [
                 "If enabled, the Academy Glintstone Key is placed in Sphere 1",
-                "if no optional locations are enabled and region locking is set to all, it will be placed in its vanilla location"
+                "If no optional locations are enabled and region locking is set to all, it will be placed in its vanilla location"
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+
+        "Volcano_Manor_Abduction_Skip":{
+            "display_name": "Volcano Manor Abduction Skip",
+            "description": [
+                "If enabled, the abduction into Volcano Manor from Raya Lucaria puts Godskin Noble and Rykard in logic without Drawing Room Key",
+                "A jump into lava from the rocks near where you spawn lets you access the route to these bosses"
             ],
             "type": "Toggle",
             "default": false

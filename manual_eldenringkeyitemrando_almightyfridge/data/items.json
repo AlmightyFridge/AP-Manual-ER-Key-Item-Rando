@@ -79,9 +79,15 @@
     "category": ["Key Item"],
     "progression": true
   },
-    {
+  {
     "count": 1,
     "name": "Discarded Palace Key",
+    "category": ["Key Item"],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Dark Moon Ring",
     "category": ["Key Item"],
     "progression": true
   },

@@ -80,8 +80,14 @@
     "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:5| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}"
   },
   "Lake of Rot": {
-    "connects_to": [],
+    "connects_to": [
+      "Moonlight Altar"
+    ],
     "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:5| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}"
+  },
+  "Moonlight Altar": {
+    "connects_to": [],
+    "requires": "|Dark Moon Ring| AND ({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:5| AND |Progressive Stone Level:6|) OR ({YamlCompare(Region_Locking == 1)} AND |Astel Killable|)"
   },
   "Dragonbarrow": {
     "connects_to": [],
