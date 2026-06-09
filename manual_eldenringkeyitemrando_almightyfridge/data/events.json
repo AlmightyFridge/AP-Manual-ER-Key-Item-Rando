@@ -6,7 +6,7 @@
 
     {
         "name": "Capital Entry Boss Killable",
-        "requires": "|Progressive Max Level:5| AND |Progressive Stone Level:6|"
+        "requires": "|Max Rune Level +10:5| AND |Max Stone Level +1:6|"
     },
 
     {
@@ -52,7 +52,26 @@
     {
         "name": "Astel Killable",
         "copy_location": "Astel Defeated"
+    },
+
+    {
+        "name": "Mohg Killable",
+        "copy_location": "Mohg Defeated"
+    },
+
+    {
+        "name": "Romina Killable",
+        "requires": "|Mohg Killable| AND |Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|",
+        "category": ["DLC"]
+    },
+
+    {
+        "name": "ADM Killable",
+        "requires": "|Mohg Killable| AND |Max Scadu Level +3:1| AND |Max Revered Ash Level +2:1|",
+        "category": ["DLC"]
     }
+
+
 
 
 

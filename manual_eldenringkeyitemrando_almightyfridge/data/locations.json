@@ -1,12 +1,20 @@
 [
   {
-    "name": "Elden Beast Defeated",
+    "name": "Elden Beast Defeated - Victory",
     "region": "Leyndell Ashen Capital",
     "victory": true,
     "category": [
-      "Victory"
+      "Major Bosses"
     ],
-    "requires": "{OptionCount(Great Rune, Great_Runes_Victory)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|"
+    "requires": "{OptionCount(Great Rune, Great_Runes_Victory)} AND |Max Rune Level +10:8| AND |Max Stone Level +1:8|"
+  },
+  {
+    "name": "Elden Beast Defeated",
+    "region": "Leyndell Ashen Capital",
+    "category": [
+      "Major Bosses"
+    ],
+    "requires": "{OptionCount(Great Rune, Great_Runes_Victory)} AND |Max Rune Level +10:8| AND |Max Stone Level +1:8|"
   },
   {
     "name": "Fort Haight Dectus Medallion",
@@ -89,7 +97,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:1| AND |Progressive Stone Level:1|"
+    "requires": "|Max Rune Level +10:1| AND |Max Stone Level +1:1|"
   },
   {
     "name": "Stormhill Shack Golden Seed",
@@ -123,7 +131,7 @@
       "Major Bosses",
       "Great Rune Bosses"
     ],
-    "requires": "|Progressive Max Level:1| AND |Progressive Stone Level:1| AND |Margit Killable|"
+    "requires": "|Max Rune Level +10:1| AND |Max Stone Level +1:1| AND |Margit Killable|"
   },
   {
     "name": "Stormvale Castle Golden Seed",
@@ -215,7 +223,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:2| AND |Progressive Stone Level:1|"
+    "requires": "|Max Rune Level +10:2| AND |Max Stone Level +1:1|"
   },
   {
     "name": "Church of Irith Sacred Tear",
@@ -325,7 +333,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:3| AND |Progressive Stone Level:2|"
+    "requires": "|Max Rune Level +10:3| AND |Max Stone Level +1:2|"
   },
   {
     "name": "Rennala Defeated",
@@ -334,7 +342,7 @@
       "Major Bosses",
       "Great Rune Bosses"
     ],
-    "requires": "|Progressive Max Level:3| AND |Progressive Stone Level:2|"
+    "requires": "|Max Rune Level +10:3| AND |Max Stone Level +1:2|"
   },
   {
     "name": "Debate Parlor Golden Seed",
@@ -368,7 +376,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:3| AND |Progressive Stone Level:2|"
+    "requires": "|Max Rune Level +10:3| AND |Max Stone Level +1:2|"
   },
   {
     "name": "Siofra River Golden Seed",
@@ -402,7 +410,7 @@
       "Major Bosses",
       "Great Rune Bosses"
     ],
-    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:4|"
+    "requires": "|Max Rune Level +10:4| AND |Max Stone Level +1:4|"
   },
   {
     "name": "Church of the Plague Sacred Tear",
@@ -478,7 +486,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:2| AND |Progressive Stone Level:1|"
+    "requires": "|Max Rune Level +10:2| AND |Max Stone Level +1:1|"
   },
   {
     "name": "Elemer of the Briar Defeated",
@@ -486,7 +494,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:4|"
+    "requires": "|Max Rune Level +10:4| AND |Max Stone Level +1:4|"
   },
   {
     "name": "Stormcaller Church Sacred Tear",
@@ -590,7 +598,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:6| AND |Progressive Stone Level:6|"
+    "requires": "|Max Rune Level +10:6| AND |Max Stone Level +1:6|"
   },
   {
     "name": "Morgott Defeated",
@@ -599,7 +607,7 @@
       "Major Bosses",
       "Great Rune Bosses"
     ],
-    "requires": "|Progressive Max Level:6| AND |Progressive Stone Level:6|"
+    "requires": "|Max Rune Level +10:6| AND |Max Stone Level +1:6|"
   },
   {
     "name": "West Capital Rampart Golden Seed",
@@ -650,7 +658,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "(|Drawing Room Key| OR ({YamlEnabled(Volcano_Manor_Abduction_Skip)} AND |Academy Glintstone Key|)) AND |Progressive Max Level:5| AND |Progressive Stone Level:6|"
+    "requires": "(|Drawing Room Key| OR ({YamlEnabled(Volcano_Manor_Abduction_Skip)} AND |Academy Glintstone Key|)) AND |Max Rune Level +10:5| AND |Max Stone Level +1:6|"
   },
   {
     "name": "Rykard Defeated",
@@ -659,7 +667,7 @@
       "Major Bosses",
       "Great Rune Bosses"
     ],
-    "requires": "(|Drawing Room Key| OR ({YamlEnabled(Volcano_Manor_Abduction_Skip)} AND |Academy Glintstone Key|)) AND |Progressive Max Level:5| AND |Progressive Stone Level:6|"
+    "requires": "(|Drawing Room Key| OR ({YamlEnabled(Volcano_Manor_Abduction_Skip)} AND |Academy Glintstone Key|)) AND |Max Rune Level +10:5| AND |Max Stone Level +1:6|"
   },
   {
     "name": "Forbidden Lands Golden Seed",
@@ -676,7 +684,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:6| AND |Progressive Stone Level:6|"
+    "requires": "|Max Rune Level +10:6| AND |Max Stone Level +1:6|"
   },
   {
     "name": "Mimic Tear Defeated",
@@ -684,7 +692,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:6|"
+    "requires": "|Max Rune Level +10:4| AND |Max Stone Level +1:6|"
   },
   {
     "name": "Regal Ancestor Spirit Defeated",
@@ -692,7 +700,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:6|"
+    "requires": "|Max Rune Level +10:4| AND |Max Stone Level +1:6|"
   },
   {
     "name": "Valiant Gargoyles Defeated",
@@ -700,7 +708,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:6|"
+    "requires": "|Max Rune Level +10:4| AND |Max Stone Level +1:6|"
   },
   {
     "name": "Astel Defeated",
@@ -708,7 +716,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:5| AND |Progressive Stone Level:6|"
+    "requires": "|Max Rune Level +10:5| AND |Max Stone Level +1:6|"
   },
   {
     "name": "Dragonkin Soldier of Nokstella Defeated",
@@ -716,7 +724,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:3| AND |Progressive Stone Level:2|"
+    "requires": "|Max Rune Level +10:3| AND |Max Stone Level +1:2|"
   },
   {
     "name": "Nokstella Golden Seed",
@@ -749,7 +757,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:7| AND |Progressive Stone Level:8|"
+    "requires": "|Max Rune Level +10:7| AND |Max Stone Level +1:8|"
   },
   {
     "name": "First Church of Marika Sacred Tear",
@@ -783,7 +791,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:7| AND |Progressive Stone Level:8|"
+    "requires": "|Max Rune Level +10:7| AND |Max Stone Level +1:8|"
   },
   {
     "name": "Church of Repose Sacred Tear",
@@ -809,7 +817,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+    "requires": "|Max Rune Level +10:8| AND |Max Stone Level +1:8|"
   },
   {
     "name": "Godskin Duo Defeated",
@@ -817,7 +825,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+    "requires": "|Max Rune Level +10:8| AND |Max Stone Level +1:8|"
   },
   {
     "name": "Maliketh Defeated",
@@ -825,7 +833,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+    "requires": "|Max Rune Level +10:8| AND |Max Stone Level +1:8|"
   },
   {
     "name": "Dragon Temple Lift Golden Seed",
@@ -869,7 +877,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+    "requires": "|Max Rune Level +10:8| AND |Max Stone Level +1:8|"
   },
   {
     "name": "Malenia Defeated",
@@ -878,7 +886,7 @@
       "Major Bosses",
       "Great Rune Bosses"
     ],
-    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+    "requires": "|Max Rune Level +10:8| AND |Max Stone Level +1:8|"
   },
   {
     "name": "Mohg Defeated",
@@ -887,7 +895,7 @@
       "Major Bosses",
       "Great Rune Bosses"
     ],
-    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+    "requires": "|Max Rune Level +10:8| AND |Max Stone Level +1:8|"
   },
   {
     "name": "Mohgwyn Palace Golden Seed",
@@ -912,7 +920,7 @@
     "category": [
       "Major Bosses"
     ],
-    "requires": "|Progressive Max Level:8| AND |Progressive Stone Level:8|"
+    "requires": "|Max Rune Level +10:8| AND |Max Stone Level +1:8|"
   },
   {
     "name": "Cursemark of Death",
@@ -936,7 +944,7 @@
     "category": [
       "Dragons"
     ],
-    "requires": "|Progressive Max Level:1| AND |Progressive Stone Level:1|"
+    "requires": "|Max Rune Level +10:2| AND |Max Stone Level +1:1|"
   },
   {
     "name": "Ekzykes Defeated",
@@ -944,7 +952,7 @@
     "category": [
       "Dragons"
     ],
-    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:4|"
+    "requires": "|Max Rune Level +10:4| AND |Max Stone Level +1:4|"
   },
   {
     "name": "Greyll Defeated",
@@ -952,7 +960,7 @@
     "category": [
       "Dragons"
     ],
-    "requires": "|Progressive Max Level:6| AND |Progressive Stone Level:6|"
+    "requires": "|Max Rune Level +10:6| AND |Max Stone Level +1:6|"
   },
   {
     "name": "Lansseax Defeated",
@@ -960,7 +968,7 @@
     "category": [
       "Dragons"
     ],
-    "requires": "|Progressive Max Level:4| AND |Progressive Stone Level:4|"
+    "requires": "|Max Rune Level +10:4| AND |Max Stone Level +1:4|"
   },
   {
     "name": "Adula Defeated",
@@ -968,7 +976,7 @@
     "category": [
       "Dragons"
     ],
-    "requires": "|Progressive Max Level:5| AND |Progressive Stone Level:6|"
+    "requires": "|Max Rune Level +10:5| AND |Max Stone Level +1:6|"
   },
   {
     "name": "Borealis Defeated",
@@ -976,7 +984,7 @@
     "category": [
       "Dragons"
     ],
-    "requires": "|Progressive Max Level:7| AND |Progressive Stone Level:8|"
+    "requires": "|Max Rune Level +10:7| AND |Max Stone Level +1:8|"
   },
   {
     "name": "Painting - Homing Instinct",
@@ -1087,6 +1095,664 @@
     "region": "Mountaintops of the Giants",
     "category": [
       "Rises"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Main Gate Cross Scadu",
+    "region": "Gravesite Plain",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Pillar Path Cross Scadu",
+    "region": "Gravesite Plain",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Three Path Cross Scadu",
+    "region": "Gravesite Plain",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Castle Front Scadu",
+    "region": "Gravesite Plain",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Church of Consolation Scadu",
+    "region": "Gravesite Plain",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Near Prospect Town Ash",
+    "region": "Gravesite Plain",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "East of Scorched Ruins Ash",
+    "region": "Gravesite Plain",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Abandoned Ailing Village Ash",
+    "region": "Gravesite Plain",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Belurat Cross Scadu",
+    "region": "Belurat",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Before Stagefront Ash",
+    "region": "Belurat",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Scorpion Room Ash",
+    "region": "Belurat",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "After Dancing Lion Ash",
+    "region": "Belurat",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": "|Max Scadu Level +3| AND |Max Revered Ash Level +2|"
+  },
+  {
+    "name": "Ellac River Cave Ash",
+    "region": "Ellac River",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Cerulean Coast Cross Scadu",
+    "region": "Cerulean Coast",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Cerulean Coast Cave Scadu",
+    "region": "Cerulean Coast",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Castle Ensis Cross Scadu",
+    "region": "Castle Ensis",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Highroad Cross Scadu",
+    "region": "Scadu Altus",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Moorth Ruins Cross Scadu",
+    "region": "Scadu Altus",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Camp West of Moorth Ruins Scadu",
+    "region": "Scadu Altus",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Camp South of Shadow Keep Scadu",
+    "region": "Scadu Altus",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Lake Cave Scadu",
+    "region": "Scadu Altus",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Church of the Crusade Scadu",
+    "region": "Scadu Altus",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "East of Moorth Ruins Ash",
+    "region": "Scadu Altus",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Bonny Village Ash",
+    "region": "Scadu Altus",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Scaduview Cross Scadu",
+    "region": "Scadu Altus",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Near Village of Flies Ash",
+    "region": "Recluses River",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Near Ruins of Unte Ash",
+    "region": "Recluses River",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "On Marika Statue Scadu",
+    "region": "Shadow Keep (Church District)",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Storehouse Cross Scadu",
+    "region": "Specimen Storehouse",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Dark Chamber Entrance Scadu",
+    "region": "Specimen Storehouse",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Storehouse Hanging Beast Ash",
+    "region": "Specimen Storehouse",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Storehouse First Floor Beast Ash",
+    "region": "Specimen Storehouse",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Fissure Cross Scadu",
+    "region": "Cerulean Coast",
+    "category": [
+       "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Temple Town Ruins Scadu",
+    "region": "Rauh Base",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "East Ruins Cross Scadu",
+    "region": "Ancient Ruins of Rauh",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Cave Near West Ruins Scadu",
+    "region": "Ancient Ruins of Rauh",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Near West Ruins Gazebo Ash",
+    "region": "Ancient Ruins of Rauh",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Hinterlands Entrance Scadu",
+    "region": "Specimen Storehouse",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Scadutree Chalice Scadu",
+    "region": "Scaduview",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Abandoned Church Scadu",
+    "region": "Abyssal Woods",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "North of Abyssal Woods Grace Scadu",
+    "region": "Abyssal Woods",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Midra's Manse Chandelier Ash",
+    "region": "Abyssal Woods",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Before Senessax Scadu",
+    "region": "Jagged Peak",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Spiral Rise Cross Scadu",
+    "region": "Enir Ilim",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "After Spiral Rise Scadu",
+    "region": "Enir Ilim",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Cleansing Chamber Anteroom Scadu",
+    "region": "Enir Ilim",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "After Spiral Rise Ash",
+    "region": "Enir Ilim",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Southwest of First Rise Ash",
+    "region": "Enir Ilim",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Belurat Tower Secret Room (Near Euporia) Scadu",
+    "region": "Enir Ilim",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Dancing Lion Defeated",
+    "region": "Belurat",
+    "category": [
+      "Major Bosses", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3| AND |Max Revered Ash Level +2|"
+  },
+  {
+    "name": "Rellana Defeated",
+    "region": "Castle Ensis",
+    "category": [
+      "Major Bosses", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:2| AND |Max Revered Ash Level +2:2|"
+  },
+  {
+    "name": "Golden Hippo Defeated",
+    "region": "Shadow Keep (Front)",
+    "category": [
+      "Major Bosses", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:2| AND |Max Revered Ash Level +2:2|"
+  },
+  {
+    "name": "Messmer Defeated",
+    "region": "Specimen Storehouse",
+    "category": [
+      "Major Bosses", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|"
+  },
+  {
+    "name": "Scadutree Avatar Defeated",
+    "region": "Shadow Keep (Church District)",
+    "category": [
+      "Major Bosses", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:3| AND |Max Revered Ash Level +2:3|"
+  },
+  {
+    "name": "Putrescent Knight Defeated",
+    "region": "Cerulean Coast",
+    "category": [
+      "Major Bosses", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:3| AND |Max Revered Ash Level +2:3|"
+  },
+  {
+    "name": "Romina Defeated",
+    "region": "Ancient Ruins of Rauh",
+    "category": [
+      "Major Bosses", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|"
+  },
+  {
+    "name": "Commander Gaius Defeated",
+    "region": "Scaduview",
+    "category": [
+      "Major Bosses", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|"
+  },
+  {
+    "name": "Midra Defeated",
+    "region": "Abyssal Woods",
+    "category": [
+      "Major Bosses", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|"
+  },
+  {
+    "name": "Bayle Defeated",
+    "region": "Jagged Peak",
+    "category": [
+      "Major Bosses", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|"
+  },
+  {
+    "name": "Metyr Defeated",
+    "region": "Scadu Altus",
+    "category": [
+      "Major Bosses", "DLC"
+    ],
+    "requires": "|Hole Laden Necklace| AND |O Mother| AND |Max Scadu Level +3:3| AND |Max Revered Ash Level +2:3|"
+  },
+  {
+    "name": "Promised Consort Radahn Defeated - Victory",
+    "region": "Enir Ilim",
+    "victory": true,
+    "category": [
+      "Major Bosses", "Victory"
+    ],
+    "requires": "|Max Scadu Level +3:5| AND |Max Revered Ash Level +2:4|"
+  },
+  {
+    "name": "Promised Consort Radahn Defeated",
+    "region": "Enir Ilim",
+    "category": [
+      "Major Bosses", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:5| AND |Max Revered Ash Level +2:4|"
+  },
+  {
+    "name": "Belurat Well Depths Key",
+    "region": "Belurat",
+    "category": [
+      "Key Items", "DLC"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Castle Ensis Imbued Sword Key",
+    "region": "Castle Ensis",
+    "category": [
+      "Key Items", "DLC"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Hole Laden Necklace",
+    "region": "Scadu Altus",
+    "category": [
+      "Key Items", "DLC"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "O Mother",
+    "region": "Scadu Altus",
+    "category": [
+      "Key Items", "DLC"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Lamenter's Gaol Upper Level Key",
+    "region": "Charo's Hidden Grave",
+    "category": [
+      "Key Items", "DLC"
+    ],
+    "requires": "|Lamenter Gaol Keys|"
+  },
+  {
+    "name": "Lamenter's Gaol Lower Level Key",
+    "region": "Charo's Hidden Grave",
+    "category": [
+      "Key Items", "DLC"
+    ],
+    "requires": "|Lamenter Gaol Keys|"
+  },
+  {
+    "name": "Moore Shop Item",
+    "region": "Gravesite Plain",
+    "category": [
+      "Shops", "DLC"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Ghostflame Dragon (Gravesite Plain)",
+    "region": "Gravesite Plain",
+    "category": [
+      "Dragons", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:1| AND |Max Revered Ash Level +2:1|"
+  },
+  {
+    "name": "Ghostflame Dragon (Scadu Altus)",
+    "region": "Scadu Altus",
+    "category": [
+      "Dragons", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:2| AND |Max Revered Ash Level +2:2|"
+  },
+  {
+    "name": "Ghostflame Dragon (Cerulean Coast)",
+    "region": "Cerulean Coast",
+    "category": [
+      "Dragons", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:3| AND |Max Revered Ash Level +2:3|"
+  },
+  {
+    "name": "Jagged Peak Drake (solo)",
+    "region": "Jagged Peak",
+    "category": [
+      "Dragons", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|"
+  },
+  {
+    "name": "Jagged Peak Drake (duo)",
+    "region": "Jagged Peak",
+    "category": [
+      "Dragons", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|"
+  },
+  {
+    "name": "Ancient Dragon Senessax",
+    "region": "Jagged Peak",
+    "category": [
+      "Dragons", "DLC"
+    ],
+    "requires": "|Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|"
+  },
+  {
+    "name": "Painting - The Sacred Tower",
+    "region": "Gravesite Plain",
+    "category": [
+      "Paintings", "DLC"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Painting - Incursion",
+    "region": "Gravesite Plain",
+    "category": [
+      "Paintings", "DLC"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Painting - Domain of Dragons",
+    "region": "Shadow Keep (Front)",
+    "category": [
+      "Paintings", "DLC"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Rabbath's Rise Chest",
+    "region": "Scadu Altus",
+    "category": [
+      "Rises", "DLC"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Two Gods Ending",
+    "region": "Leyndell Ashen Capital",
+    "victory": true,
+    "category": [
+      "Victory"
+    ],
+    "requires": "|God Slain:2|"
+  },
+  {
+    "name": "Temple Town Ruins Ash",
+    "region": "Rauh Base",
+    "category": [
+      "Shadow Blessings", "DLC", "Ashes"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Recluses River Waterfall Scadu",
+    "region": "Recluses River",
+    "category": [
+      "Shadow Blessings", "DLC", "Scadu"
     ],
     "requires": ""
   }

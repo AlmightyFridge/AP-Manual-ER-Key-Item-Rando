@@ -1,13 +1,13 @@
 [
   {
     "count": "13",
-    "name": "Progressive Max Level",
+    "name": "Max Rune Level +10",
     "category": ["Max Level"],
     "progression": true
   },
   {
     "count": "10",
-    "name": "Progressive Stone Level",
+    "name": "Max Stone Level +1",
     "category": ["Stone Level"],
     "progression": true
   },
@@ -156,5 +156,69 @@
     "name": "Immediate Memory of Grace (trap)",
     "category": ["Traps"],
     "trap": true
+  },
+  {
+    "count": "7",
+    "name": "Max Scadu Level +3",
+    "category": [
+      "Scadu Level", "DLC"
+    ],
+    "progression": true
+  },
+  {
+    "count": "5",
+    "name": "Max Revered Ash Level +2",
+    "category": [
+      "Ash Level", "DLC"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Messmers Kindling",
+    "category": [
+      "Key Item", "DLC"
+    ],
+    "progression": true
+  },
+  {
+    "count": 0,
+    "name": "Messmers Kindling Shard",
+    "category": [
+      "Key Item", "DLC"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Hole Laden Necklace",
+    "category": [
+      "Key Item", "DLC"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "O Mother",
+    "category": [
+      "Key Item", "DLC"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Lamenter Gaol Keys",
+    "category": [
+      "Key Item", "DLC"
+    ],
+    "progression": true
+  },
+  {
+    "count": 2,
+    "name": "God Slain",
+    "category": [
+      "Key Item"
+    ],
+    "progression": true
   }
 ]

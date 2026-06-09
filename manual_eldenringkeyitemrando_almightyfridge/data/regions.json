@@ -8,7 +8,8 @@
       "Caelid", 
       "Stormvale Castle", 
       "Nokron Eternal City",
-      "Dragonbarrow"
+      "Dragonbarrow",
+      "Mohgwyn Palace"
     ],
     "requires": ""
   },
@@ -20,7 +21,7 @@
     "connects_to": [
       "Liurnia of the Lakes"
     ],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:1| AND |Progressive Stone Level:1|) OR {YamlCompare(Region_Locking == 1)}"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:1| AND |Max Stone Level +1:1|) OR {YamlCompare(Region_Locking_Base == 1)}"
   },
   "Liurnia of the Lakes": {
     "connects_to": [
@@ -28,112 +29,215 @@
       "Ainsel River",
       "Altus Plateau"
     ],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:2| AND |Progressive Stone Level:1|) OR {YamlCompare(Region_Locking == 1)}"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:2| AND |Max Stone Level +1:1|) OR {YamlCompare(Region_Locking_Base == 1)}"
   },
   "Academy of Raya Lucaria": {
     "connects_to": [],
-    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:3| AND |Progressive Stone Level:2|) OR {YamlCompare(Region_Locking == 1)}) AND |Academy Glintstone Key|"
+    "requires": "(({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:3| AND |Max Stone Level +1:2|) OR {YamlCompare(Region_Locking_Base == 1)}) AND |Academy Glintstone Key|"
   },
   "Ainsel River": {
     "connects_to": [
       "Lake of Rot"
     ],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:3| AND |Progressive Stone Level:2|) OR {YamlCompare(Region_Locking == 1)}"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:3| AND |Max Stone Level +1:2|) OR {YamlCompare(Region_Locking_Base == 1)}"
   },
   "Siofra River": {
     "connects_to": [],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:3| AND |Progressive Stone Level:2|) OR {YamlCompare(Region_Locking == 1)}"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:3| AND |Max Stone Level +1:2|) OR {YamlCompare(Region_Locking_Base == 1)}"
   },
   "Caelid": {
     "connects_to": [
       "Dragonbarrow"
     ],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:4| AND |Progressive Stone Level:4|) OR {YamlCompare(Region_Locking == 1)}"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:4| AND |Max Stone Level +1:4|) OR {YamlCompare(Region_Locking_Base == 1)}"
   },
   "Altus Plateau": {
     "connects_to": [
       "Mt. Gelmir",
       "Capital Outskirts"
     ],
-    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:4| AND |Progressive Stone Level:4|) OR {YamlCompare(Region_Locking == 1)}) AND (|Makar Killable| OR (|Dectus Medallion (Left)| AND |Dectus Medallion (Right)|))"
+    "requires": "(({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:4| AND |Max Stone Level +1:4|) OR {YamlCompare(Region_Locking_Base == 1)}) AND (|Makar Killable| OR (|Dectus Medallion (Left)| AND |Dectus Medallion (Right)|))"
   },
   "Nokron Eternal City": {
     "connects_to": [
       "Deeproot Depths"
     ],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:4| AND |Progressive Stone Level:6|) OR ({YamlCompare(Region_Locking == 1)} AND |Starscourge Radahn Killable|)"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:4| AND |Max Stone Level +1:6|) OR ({YamlCompare(Region_Locking_Base == 1)} AND |Starscourge Radahn Killable|)"
   },
   "Deeproot Depths": {
     "connects_to": [
       "Leyndell Royal Capital", "Lake of Rot"
     ],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:5| AND |Progressive Stone Level:6|) OR ({YamlCompare(Region_Locking == 1)} AND |Valiant Gargoyles Killable|)"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:5| AND |Max Stone Level +1:6|) OR ({YamlCompare(Region_Locking_Base == 1)} AND |Valiant Gargoyles Killable|)"
   },
   "Capital Outskirts": {
     "connects_to": [
       "Leyndell Royal Capital"
     ],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:5| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:5| AND |Max Stone Level +1:6|) OR {YamlCompare(Region_Locking_Base == 1)}"
   },
   "Mt. Gelmir": {
     "connects_to": [],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:5| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:5| AND |Max Stone Level +1:6|) OR {YamlCompare(Region_Locking_Base == 1)}"
   },
   "Lake of Rot": {
     "connects_to": [
       "Moonlight Altar"
     ],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:5| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:5| AND |Max Stone Level +1:6|) OR {YamlCompare(Region_Locking_Base == 1)}"
   },
   "Moonlight Altar": {
     "connects_to": [],
-    "requires": "|Dark Moon Ring| AND ({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:5| AND |Progressive Stone Level:6|) OR ({YamlCompare(Region_Locking == 1)} AND |Astel Killable|)"
+    "requires": "|Dark Moon Ring| AND |Astel Killable|"
   },
   "Dragonbarrow": {
     "connects_to": [],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:6| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:6| AND |Max Stone Level +1:6|) OR {YamlCompare(Region_Locking_Base == 1)}"
   },
   "Leyndell Royal Capital": {
     "connects_to": [
       "Forbidden Lands"
     ],
-    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:6| AND |Progressive Stone Level:6|) OR {YamlCompare(Region_Locking == 1)}) AND {OptionCount(Great Rune, Great_Runes_Capital)} AND (|Capital Entry Boss Killable|)"
+    "requires": "(({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:6| AND |Max Stone Level +1:6|) OR {YamlCompare(Region_Locking_Base == 1)}) AND {OptionCount(Great Rune, Great_Runes_Capital)} AND (|Capital Entry Boss Killable|)"
   },
   "Forbidden Lands": {
     "connects_to": [
       "Mountaintops of the Giants", "Consecrated Snowfield"
     ],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:7| AND |Progressive Stone Level:8|) OR ({YamlCompare(Region_Locking == 1)} AND |Morgott Killable|)"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:7| AND |Max Stone Level +1:8|) OR ({YamlCompare(Region_Locking_Base == 1)} AND |Morgott Killable|)"
   },
   "Mountaintops of the Giants": {
     "connects_to": [
       "Crumbling Farum Azula"
     ],
-    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:7| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}) AND (({YamlCompare(Rold_Medallion_Setting == 0)} AND {OptionCount(Great Rune, Great_Runes_Rold)}) OR |Rold Medallion|)"
+    "requires": "(({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:7| AND |Max Stone Level +1:8|) OR {YamlCompare(Region_Locking_Base == 1)}) AND (({YamlCompare(Rold_Medallion_Setting == 0)} AND {OptionCount(Great Rune, Great_Runes_Rold)}) OR |Rold Medallion|)"
   },
   "Consecrated Snowfield": {
     "connects_to": [
       "Mohgwyn Palace",
       "Miquella's Haligtree"
     ],
-    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:7| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}) AND |Haligtree Secret Medallion (Left)| AND |Haligtree Secret Medallion (Right)|"
+    "requires": "(({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:7| AND |Max Stone Level +1:8|) OR {YamlCompare(Region_Locking_Base == 1)}) AND |Haligtree Secret Medallion (Left)| AND |Haligtree Secret Medallion (Right)|"
   },
   "Mohgwyn Palace": {
-    "connects_to": [],
-    "requires": "(({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}) AND ((|Haligtree Secret Medallion (Left)| AND |Haligtree Secret Medallion (Right)|) OR |Pureblood Knight's Medal|)"
+    "connects_to": [
+      "Gravesite Plain"
+    ],
+    "requires": "(({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:8| AND |Max Stone Level +1:8|) OR {YamlCompare(Region_Locking_Base == 1)}) AND ((|Haligtree Secret Medallion (Left)| AND |Haligtree Secret Medallion (Right)| AND {OptionCount(Great Rune, Great_Runes_Capital)} AND |Morgott Killable|) OR |Pureblood Knight's Medal|)"
   },
   "Miquella's Haligtree": {
     "connects_to": [],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|) OR {YamlCompare(Region_Locking == 1)}"
+    "requires": "({YamlCompare(Region_Locking_Base == 0)} AND |Max Rune Level +10:8| AND |Max Stone Level +1:8|) OR {YamlCompare(Region_Locking_Base == 1)}"
   },
   "Crumbling Farum Azula": {
     "connects_to": [
       "Leyndell Ashen Capital"
     ],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|) OR ({YamlCompare(Region_Locking == 1)} AND |Fire Giant Killable|)"
+    "requires": "|Max Rune Level +10:8| AND |Max Stone Level +1:8|"
   },
   "Leyndell Ashen Capital": {
     "connects_to": [],
-    "requires": "({YamlCompare(Region_Locking == 0)} AND |Progressive Max Level:8| AND |Progressive Stone Level:8|) OR ({YamlCompare(Region_Locking == 1)} AND |Fire Giant Killable|)"
+    "requires": "|Max Rune Level +10:8| AND |Max Stone Level +1:8|"
+  },
+  "Gravesite Plain": {
+    "connects_to": [
+      "Belurat",
+      "Castle Ensis",
+      "Ellac River",
+      "Scadu Altus",
+      "Jagged Peak"
+    ],
+    "requires": "|Mohg Killable| AND (({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:1| AND |Max Revered Ash Level +2:1|) OR {YamlCompare(Region_Locking_DLC == 1)})"
+  },
+  "Belurat": {
+    "connects_to": [],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:1| AND |Max Revered Ash Level +2:1|) OR {YamlCompare(Region_Locking_DLC == 1)}"
+  },
+  "Castle Ensis": {
+    "connects_to": [
+      "Scadu Altus"
+    ],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:2| AND |Max Revered Ash Level +2:2|) OR {YamlCompare(Region_Locking_DLC == 1)}"
+  },
+  "Ellac River": {
+    "connects_to": [
+      "Cerulean Coast"
+    ],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:1| AND |Max Revered Ash Level +2:1|) OR {YamlCompare(Region_Locking_DLC == 1)}"
+  },
+  "Scadu Altus": {
+    "connects_to": [
+      "Shadow Keep (Front)",
+      "Shadow Keep (Church District)",
+      "Rauh Base"
+    ],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:2| AND |Max Revered Ash Level +2:2|) OR {YamlCompare(Region_Locking_DLC == 1)}"
+  },
+  "Cerulean Coast": {
+    "connects_to": [],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:3| AND |Max Revered Ash Level +2:3|) OR {YamlCompare(Region_Locking_DLC == 1)}"
+  },
+  "Shadow Keep (Front)": {
+    "connects_to": [
+      "Recluses River",
+      "Ancient Ruins of Rauh"
+    ],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:2| AND |Max Revered Ash Level +2:2|) OR {YamlCompare(Region_Locking_DLC == 1)}"
+  },
+    "Shadow Keep (Church District)": {
+    "connects_to": [
+      "Specimen Storehouse"
+    ],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:3| AND |Max Revered Ash Level +2:3|) OR {YamlCompare(Region_Locking_DLC == 1)}"
+  },
+  "Specimen Storehouse": {
+    "connects_to": [
+      "Shadow Keep (Front)",
+      "Scaduview",
+      "Hinterlands"
+    ],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|) OR {YamlCompare(Region_Locking_DLC == 1)}"
+  },
+  "Scaduview": {
+    "connects_to": [],
+    "requires": "|Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|"
+  },
+  "Hinterlands": {
+    "connects_to": [],
+    "requires": "|O Mother| AND ({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|) OR {YamlCompare(Region_Locking_DLC == 1)} "
+  },
+  "Recluses River": {
+    "connects_to": [
+      "Abyssal Woods"
+    ],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|) OR {YamlCompare(Region_Locking_DLC == 1)}"
+  },
+  "Abyssal Woods": {
+    "connects_to": [],
+    "requires": "|Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|"
+  },
+  "Ancient Ruins of Rauh": {
+    "connects_to": [
+      "Enir Ilim"
+    ],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|) OR {YamlCompare(Region_Locking_DLC == 1)}"
+  },
+  "Enir Ilim": {
+    "connects_to": [],
+    "requires": "(({YamlCompare(Messmers_Kindling_Setting >= 1)} AND |Messmers Kindling|) OR ({YamlCompare(Messmers_Kindling_Setting == 0)} AND {OptionCount(Messmers Kindling Shard, Messmers_Kindling_Shards_Needed)})) AND (({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:5| AND |Max Revered Ash Level +2:4|) OR ({YamlCompare(Region_Locking_DLC == 1)} AND |Romina Killable|))"
+  },
+  "Rauh Base": {
+    "connects_to": [],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:3| AND |Max Revered Ash Level +2:3|) OR {YamlCompare(Region_Locking_DLC == 1)}"
+  },
+  "Jagged Peak": {
+    "connects_to": [
+      "Charo's Hidden Grave"
+    ],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:4| AND |Max Revered Ash Level +2:4|) OR ({YamlCompare(Region_Locking_DLC == 1)} AND |ADM Killable|)"
+  },
+  "Charo's Hidden Grave": {
+    "connects_to": [],
+    "requires": "({YamlCompare(Region_Locking_DLC == 0)} AND |Max Scadu Level +3:3| AND |Max Revered Ash Level +2:3|) OR {YamlCompare(Region_Locking_DLC == 1)}"
   }
 }

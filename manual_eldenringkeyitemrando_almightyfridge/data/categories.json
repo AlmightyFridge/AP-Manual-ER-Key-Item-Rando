@@ -2,8 +2,11 @@
     "Shops":{
         "yaml_option": ["Shopsanity"]
     },
-    "Flask Upgrades":{
-        "yaml_option": ["Flask_Upgrade_Sanity"]
+    "Golden Seeds":{
+        "yaml_option": ["Seedsanity"]
+    },
+    "Sacred Tears":{
+        "yaml_option": ["Tearsanity"]
     },
     "Dragons":{
         "yaml_option": ["Dragonsanity"]
@@ -13,5 +16,14 @@
     },
     "Rises":{
         "yaml_option": ["Risesanity"]
+    },
+    "DLC":{
+        "yaml_option": ["DLC"]
+    },
+    "Ashes":{
+        "yaml_option": ["DLC", "Ashsanity"]
+    },
+    "Scadu":{
+        "yaml_option": ["DLC", "Scadusanity"]
     }
 }

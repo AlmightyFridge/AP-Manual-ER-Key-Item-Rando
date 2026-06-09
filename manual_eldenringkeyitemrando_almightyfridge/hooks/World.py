@@ -43,7 +43,25 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
-    pass
+    if not is_option_enabled(multiworld, player, "DLC"):
+        if get_option_value(multiworld, player, "goal") != 0:
+            logging.info("")
+            logging.info("ERROR! Incompatible Options Detected!")
+            logging.info("")
+            logging.info("#########################################")
+            logging.info("### DLC Must Be Enabled For DLC Goals ###")
+            logging.info("#########################################")
+    else:
+        if get_option_value(multiworld, player, "Messmers_Kindling_Setting") == 0:
+            if get_option_value(multiworld, player, "Messmers_Kindling_Shards_Total") < get_option_value(multiworld, player, "Messmers_Kindling_Shards_Needed"):
+                logging.info("")
+                logging.info("ERROR! Incompatible Options Detected!")
+                logging.info("")
+                logging.info("################################################")
+                logging.info("### Messmers Kindling Shards Total is Too Low ###")
+                logging.info("################################################")
+
+    return
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
@@ -55,6 +73,18 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
     locationNamesToRemove: list[str] = [] # List of location names 
 
+    ######################
+    # Goals              #
+    # elden beast - 0    #
+    # consort radahn - 1 #
+    # two gods - 2       #
+    ######################
+
+
+    if get_option_value(multiworld, player, "goal") == 0:
+        locationNamesToRemove.append("Elden Beast Defeated")
+    elif get_option_value(multiworld, player, "goal") == 1:
+        locationNamesToRemove.append("Promised Consort Radahn Defeated")
     # Add your code here to calculate which locations to remove
 
     for region in multiworld.regions:
@@ -84,14 +114,24 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
         item_config["Free +2 Talisman"] += 2
         item_config["Free +3 Talisman"] += 2
 
-    if is_option_enabled(multiworld, player, "Flask_Upgrade_Sanity"): 
-        item_config["Free Weapon"] += 4
-        item_config["Free Shield"] += 1
-        item_config["Free Armor"] += 3
+    if is_option_enabled(multiworld, player, "Seedsanity"):
+        item_config["Free Weapon"] += 3
+        item_config["Free Shield"] += 2
+        item_config["Free Armor"] += 2
         item_config["Free Spell"] += 2
-        item_config["Free +0 Talisman"] += 4
-        item_config["Free +1 Talisman"] += 3
+        item_config["Free +0 Talisman"] += 3
+        item_config["Free +1 Talisman"] += 2
         item_config["Free +2 Talisman"] += 2
+        item_config["Free +3 Talisman"] += 2
+    
+    if is_option_enabled(multiworld, player, "Tearsanity"):
+        item_config["Free Weapon"] += 1
+        item_config["Free Shield"] += 1
+        item_config["Free Armor"] += 1
+        item_config["Free Spell"] += 1
+        item_config["Free +0 Talisman"] += 1
+        item_config["Free +1 Talisman"] += 1
+        item_config["Free +2 Talisman"] += 1
         item_config["Free +3 Talisman"] += 1
 
     if is_option_enabled(multiworld, player, "Dragonsanity"):
@@ -111,7 +151,34 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
         item_config["Free Spell"] += 1
         item_config["Free +0 Talisman"] += 1
         item_config["Free +1 Talisman"] += 1
-        item_config["Free +2 Talisman"] += 1
+        item_config["Free +2 Talisman"] += 1 
+
+    #DLC stuff
+    if is_option_enabled(multiworld, player, "DLC"):
+
+        if is_option_enabled(multiworld, player, "Scadusanity"): #30
+            item_config["Free Weapon"] += 3
+            item_config["Free Shield"] += 2
+            item_config["Free Armor"] += 2
+            item_config["Free Spell"] += 2
+            item_config["Free +0 Talisman"] += 3
+            item_config["Free +1 Talisman"] += 2
+            item_config["Free +2 Talisman"] += 2
+            item_config["Free +3 Talisman"] += 2
+
+        if is_option_enabled(multiworld, player, "Ashsanity"): #19  
+            item_config["Free Weapon"] += 1
+            item_config["Free Shield"] += 1
+            item_config["Free Armor"] += 1
+            item_config["Free Spell"] += 1
+            item_config["Free +0 Talisman"] += 1
+            item_config["Free +1 Talisman"] += 1
+            item_config["Free +2 Talisman"] += 1
+            item_config["Free +3 Talisman"] += 1 
+
+        if get_option_value(multiworld, player, "Messmers_Kindling_Setting") == 0:
+            item_config["Messmers Kindling Shard"] += get_option_value(multiworld, player, "Messmers_Kindling_Shards_Total")
+            item_config["Messmers Kindling"] = 0
 
     return item_config
 
@@ -129,6 +196,23 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     
     if not is_option_enabled(multiworld, player, "Dragonsanity") and not is_option_enabled(multiworld, player, "Risesanity"):
         itemNamesToRemove.append("Dark Moon Ring")
+
+    ##check for victory to deal with god slain items
+
+    if get_option_value(multiworld, player, "goal") == 2:
+        itemName = "God Slain"
+        locationList = ["Elden Beast Defeated", "Promised Consort Radahn Defeated"]
+
+        for loc_name in locationList:
+            location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == loc_name)
+            item_to_place = next(i for i in item_pool if i.name == itemName)
+            location.place_locked_item(item_to_place)
+            remove_specific_item(item_pool, item_to_place)
+    
+    else:
+        itemNamesToRemove.append("God Slain")
+        itemNamesToRemove.append("God Slain")
+
 
     # Add your code here to calculate which items to remove.
     #
@@ -164,11 +248,21 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             remove_specific_item(item_pool, item_to_place)
 
     if is_option_enabled(multiworld, player, "Early_Academy_Key"):
-        if is_extra_locations or get_option_value(multiworld, player, "Region_Locking") == 1:
+        if is_extra_locations or get_option_value(multiworld, player, "Region_Locking_Base") == 1:
             multiworld.early_items[player].update({"Academy Glintstone Key": 1})
         else:
             itemName = "Academy Glintstone Key"
             locationName = "Academy Glintstone Key"
+
+            location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == locationName)
+            item_to_place = next(i for i in item_pool if i.name == itemName)
+            location.place_locked_item(item_to_place)
+            remove_specific_item(item_pool, item_to_place)
+
+    if is_option_enabled(multiworld, player, "DLC"):
+        if get_option_value(multiworld, player, "Messmers_Kindling_Setting") == 1:
+            itemName = "Messmers Kindling"
+            locationName = "Messmer Defeated"
 
             location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == locationName)
             item_to_place = next(i for i in item_pool if i.name == itemName)

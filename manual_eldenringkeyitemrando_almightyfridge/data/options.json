@@ -6,9 +6,12 @@
             "_comment": [
                 "Using 'goal' as the name of an option let you override some of the generated goal parameters"
             ],
-            "display_name": "The End Objective",
-            "description": "How to End your Randomized playthrough.",
-            "aliases": {"easiest": 0},
+            "display_name": "Goal",
+            "description": [
+                "Choose your ending",
+                "Two Gods Ending is both Elden Beast and Promised Consort Radahn",
+                "!DLC MUST BE ENABLED FOR DLC GOALS!"
+            ],
             "hidden": false
         },
         "death_link": {
@@ -17,7 +20,7 @@
         "filler_traps": {
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
             "values": {
-                "recommended": 20
+                "recommended": 25
             }
         }
     },
@@ -26,7 +29,7 @@
             "display_name": "Great Runes Victory",
             "type": "Range",
             "description": [
-                "How many Great Runes are needed to challenge the final boss"
+                "How many Great Runes are needed to challenge the Elden Beast"
             ],
             "range_start": 0,
             "default": 4,
@@ -71,13 +74,13 @@
             "range_end": 7
         },
 
-        "Region_Locking":{
-            "display_name": "Region Locking",
+        "Region_Locking_Base":{
+            "display_name": "Region Locking Base",
             "description": [
-                "Determines how the game expects you to be locked behind progressive max levels and progressive upgrade stones",
+                "Determines how the game expects you to be locked behind Max Rune Levels and Max Stone Levels",
                 "'All Locations' logically gates all locations in a region until you have the expected levels and stones",
                 "'Boss Locations' only logically gates Major Bosses locations in a region until you have the expected levels and stones",
-                "Note that bosses that block non-boss locations and travel between areas are taken into logic"
+                "Bosses that block non-boss locations and travel between areas are taken into logic"
             ],
             "type": "Choice",
             "values": {
@@ -97,15 +100,25 @@
             "default": true
         },
 
-        "Flask_Upgrade_Sanity":{
-            "display_name": "Flask Upgrade Sanity",
+        "Seedsanity":{
+            "display_name": "Seedsanity",
             "description": [
-                "If enabled, Sacred Tear and Golden Seed locations are added into the pool",
+                "If enabled, Golden Seed locations are added into the pool",
                 "Enabling this option adds useful items to the pool"
             ],
             "type": "Toggle",
             "default": true
         }, 
+
+        "Tearsanity":{
+            "display_name": "Tearsanity",
+            "description": [
+                "If enabled, Sacred Tear locations are added into the pool",
+                "Enabling this option adds useful items to the pool"
+            ],
+            "type": "Toggle",
+            "default": true
+        },
 
         "Dragonsanity":{
             "display_name": "Dragonsanity",
@@ -150,7 +163,7 @@
             "display_name": "Early Academy Key",
             "description": [
                 "If enabled, the Academy Glintstone Key is placed in Sphere 1",
-                "If no optional locations are enabled and region locking is set to all, it will be placed in its vanilla location"
+                "If no optional base game locations are enabled and region locking is set to all, it will be placed in its vanilla location"
             ],
             "type": "Toggle",
             "default": false
@@ -164,6 +177,103 @@
             ],
             "type": "Toggle",
             "default": false
+        },
+
+        "DLC":{
+            "display_name": "DLC",
+            "description": [
+                "If enabled, DLC Major Boss and Key Item Locations are added into the pool"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "DLC"
+        },
+
+        "Region_Locking_DLC":{
+            "display_name": "Region Locking DLC",
+            "description": [
+                "Determines how the game expects you to be locked behind Max Scadu Level and Max Ash Level",
+                "'All Locations' logically gates all locations in a region until you have the expected levels",
+                "'Boss Locations' only logically gates Major Bosses locations in a region until you have the expected levels",
+                "Bosses that block non-boss locations and travel between areas are taken into logic",
+                "Important! The vast majority of the DLC is accessible without needing to kill bosses. Use at your discretion!"
+            ],
+            "type": "Choice",
+            "values": {
+                "All Locations":0,
+                "Boss Locations":1
+             },
+            "default": 0,
+            "group": "DLC"
+        },
+
+        "Scadusanity":{
+            "display_name": "Scadusanity",
+            "description": [
+                "If enabled, DLC Scadutree Fragment Locations are added into the pool",
+                "Enabling this option adds useful items to the pool",
+                "Does nothing if DLC is not enabled"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "DLC"
+        },
+
+        "Ashsanity":{
+            "display_name": "Ashsanity",
+            "description": [
+                "If enabled, DLC Revered Spirit Ash Locations are added into the pool",
+                "Enabling this option adds useful items to the pool",
+                "Does nothing if DLC is not enabled"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "DLC"
+        },
+
+        "Messmers_Kindling_Setting":{
+            "display_name": "Messmers Kindling Setting",
+            "description": [
+                "Determines whether Messmers Kindling is divided into Messmers Kindling Shards, placed in its vanilla location, or a randomized item"
+            ],
+            "type": "Choice",
+            "values": {
+                "Shards": 0,
+                "Vanilla Item": 1,
+                "Randomized Item": 2
+             },
+            "default": 0,
+            "allow_custom_value": false,
+            "group": "DLC"
+        },
+
+        "Messmers_Kindling_Shards_Total":{
+            "display_name": "Messmers Kindling Shards Total",
+            "description": [
+                "Determines how many Messmers Kindling Shards are in the item pool",
+                "Does nothing if Messmers_Kindling_Setting is set to vanilla or randomized item",
+                "Can fail to generate with too few locations enabled"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 2,
+            "range_end": 7,
+            "group": "DLC"
+        },
+
+        "Messmers_Kindling_Shards_Needed":{
+            "display_name": "Messmers Kindling Shards Needed",
+            "description": [
+                "Determines how many Messmers Kindling Shards are needed to burn the sealing tree and access Enir-Ilim",
+                "Does nothing if Messmers_Kindling_Setting is set to vanilla or randomized item",
+                "Can fail to generate with too few locations enabled"
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "default": 2,
+            "range_end": 7,
+            "group": "DLC"
         }
+
     }
 }
